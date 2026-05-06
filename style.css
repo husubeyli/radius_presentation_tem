@@ -1,7 +1,8 @@
 :root{--p:#006c8c;--a:#0099c6;--d:#002b3d;}
 *{box-sizing:border-box;margin:0;padding:0;}
 .reveal{font-family:'Segoe UI',system-ui,sans-serif;font-size:15px;}
-.reveal .slides section{padding:0;height:100%;}
+.reveal .slides{height:100%;}
+.reveal .slides section{padding:0;overflow:hidden;}
 .reveal h1,.reveal h2,.reveal h3{text-transform:none;}
 .reveal .progress{color:var(--a);}
 .reveal .controls{color:var(--a);}
@@ -92,20 +93,20 @@
 .sl-sol-metric__lbl{font-size:.58em;color:rgba(255,255,255,.6);margin-top:4px;}
 
 /* SCREEN slides */
-.sl-screen{display:flex!important;flex-direction:column;padding:20px 38px!important;height:100%;gap:12px;}
+.sl-screen{display:flex!important;flex-direction:column;padding:16px 32px!important;height:auto;gap:10px;overflow:hidden;}
 .sl-screen--blue{background:linear-gradient(160deg,#eef6ff 0%,#e0f2fe 100%);}
 .sl-screen--green{background:linear-gradient(160deg,#f0fdf4 0%,#d1fae5 100%);}
 .sl-screen--yellow{background:linear-gradient(160deg,#fefce8 0%,#fef3c7 100%);}
 .sl-screen--orange{background:linear-gradient(160deg,#fff7ed 0%,#fde68a 100%);}
-.sl-screen__head{display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:8px;}
+.sl-screen__head{display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:8px;flex-shrink:0;}
 .sl-screen__pills{display:flex;gap:7px;flex-wrap:wrap;align-items:center;}
 .sl-screen__pill{background:#fff;border:1.5px solid #e3e8ed;border-radius:20px;padding:4px 12px;font-size:.66em;font-weight:600;color:var(--d);box-shadow:0 2px 6px rgba(0,0,0,.06);}
 .sl-screen__pill--green{background:#dcfce7;border-color:#86efac;color:#15803d;}
 .sl-screen__pill--yellow{background:#fef9c3;border-color:#fde047;color:#854d0e;}
 .sl-screen__pill--red{background:#fee2e2;border-color:#fca5a5;color:#991b1b;}
-.sl-screen__frame{background:#1e293b;border-radius:14px;overflow:hidden;box-shadow:0 20px 60px rgba(0,61,82,.2),0 4px 16px rgba(0,0,0,.12);flex:1;display:flex;flex-direction:column;}
+.sl-screen__frame{background:#1e293b;border-radius:14px;overflow:hidden;box-shadow:0 20px 60px rgba(0,61,82,.2),0 4px 16px rgba(0,0,0,.12);flex:1;display:flex;flex-direction:column;min-height:0;}
 .sl-screen__bar{background:#334155;padding:8px 14px;display:flex;align-items:center;gap:6px;flex-shrink:0;}
-.sl-screen__img{width:100%;display:block;flex:1;object-fit:contain;object-position:top;background:#f8fafc;}
+.sl-screen__img{width:100%;display:block;flex:1;min-height:0;object-position:top center;background:#f8fafc;}
 
 /* SPLIT slides */
 .sl-split{display:grid!important;grid-template-columns:1fr 1.1fr;align-items:center;padding:30px 46px!important;gap:28px;height:100%;}
@@ -164,17 +165,17 @@
 .sl-end__contact{background:rgba(255,255,255,.12);border:1.5px solid rgba(255,255,255,.2);color:#fff;font-size:.76em;font-weight:600;padding:7px 16px;border-radius:24px;}
 
 /* TOP-BOTTOM layout */
-.sl-topbottom{display:flex!important;flex-direction:column;padding:20px 46px!important;height:100%;gap:14px;}
+.sl-topbottom{display:flex!important;flex-direction:column;padding:20px 46px!important;height:100%;gap:14px;overflow:hidden;}
 .sl-topbottom--blue{background:linear-gradient(160deg,#f0f9ff 0%,#e0f2fe 100%);}
 .sl-topbottom--purple{background:linear-gradient(160deg,#faf5ff 0%,#ede9fe 100%);}
-.sl-topbottom__top{display:flex;align-items:flex-start;gap:24px;}
+.sl-topbottom__top{display:flex;align-items:flex-start;gap:24px;flex-shrink:0;}
 .sl-topbottom__info{flex-shrink:0;min-width:200px;}
 .sl-topbottom__feats{display:flex;gap:10px;flex:1;}
 .sl-topbottom__feats .sl-feat{flex:1;flex-direction:column;align-items:flex-start;}
 .sl-topbottom__feats .sl-feat__icon{margin-bottom:6px;}
-.sl-topbottom__bottom{flex:1;min-height:0;}
+.sl-topbottom__bottom{flex:1;min-height:0;overflow:hidden;}
 .sl-topbottom__bottom .sl-screen__frame{height:100%;}
-.sl-topbottom__img{width:100%;display:block;height:calc(100% - 32px);object-fit:contain;object-position:top;background:#f8fafc;}
+.sl-topbottom__img{width:100%;display:block;height:calc(100% - 32px);object-fit:contain;object-position:top center;background:#f8fafc;}
 
 /* Typewriter */
 .sl-cover__typewriter{color:#4dd9f5;font-style:normal;}
