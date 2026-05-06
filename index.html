@@ -1,436 +1,943 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="az">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Radius HR — Presentation</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div class="reveal"><div class="slides">
-
-<!-- 1. COVER -->
-<section class="sl-cover">
-  <div class="sl-cover__circles">
-    <div class="sl-cover__c sl-cover__c--1"></div> ̰ ̰ ̰
-    <div class="sl-cover__c sl-cover__c--2"></div>
-    <div class="sl-cover__c sl-cover__c--3"></div>
-  </div>
-  <div class="sl-cover__left">
-    <div class="sl-cover__brand"><div class="sl-cover__logo">R</div><span>Radius</span></div>
-    <div class="sl-cover__eyebrow">HR Management Platform</div>
-    <h1 class="sl-cover__title">İşçilərinizi<br><span class="sl-cover__typewriter" id="twText"></span><span class="sl-cover__cursor">|</span></h1>
-    <p class="sl-cover__sub">Davamiyyət, hesabat, icazə — hamısı bir platformada.<br>Real vaxt, avtomatik, dəqiq.</p>
-
-    <div class="sl-cover__kpis">
-      <div class="sl-cover__kpi"><b>100%</b><span>Avtomatik</span></div>
-      <div class="sl-cover__kpi-sep"></div>
-      <div class="sl-cover__kpi"><b>3</b><span>Dil</span></div>
-      <div class="sl-cover__kpi-sep"></div>
-      <div class="sl-cover__kpi"><b>∞</b><span>Şirkət</span></div>
-      <div class="sl-cover__kpi-sep"></div>
-      <div class="sl-cover__kpi"><b>24/7</b><span>Əlçatan</span></div>
-    </div>
-
-    <div class="sl-cover__tags">
-      <span>📱 Mobil Check-in</span>
-      <span>📊 Hesabatlar</span>
-      <span>🔲 QR Kod</span>
-      <span>📍 GPS Doğrulama</span>
-    </div>
-
-    <div class="sl-cover__divider"></div>
-
-    <div class="sl-cover__trust">
-      <div class="sl-cover__trust-label">Güvənilən platforma</div>
-      <div class="sl-cover__trust-items">
-        <div class="sl-cover__trust-item">
-          <div class="sl-cover__trust-icon">🔒</div>
-          <span>Şifrəli məlumat</span>
-        </div>
-        <div class="sl-cover__trust-item">
-          <div class="sl-cover__trust-icon">⚡</div>
-          <span>1 gündə quraşdırma</span>
-        </div>
-        <div class="sl-cover__trust-item">
-          <div class="sl-cover__trust-icon">🎯</div>
-          <span>Texniki dəstək</span>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="sl-cover__right">
-    <div class="sl-cover__mockup">
-      <div class="mock-bar"><span class="md r"></span><span class="md y"></span><span class="md g"></span><span class="mu">radius.hr/dashboard</span></div>
-      <div class="mock-body">
-        <div class="mock-side">
-          <div class="mock-logo">R</div>
-          <div class="mock-nav on">Dashboard</div>
-          <div class="mock-nav">Davamiyyət</div>
-          <div class="mock-nav">İşçilər</div>
-          <div class="mock-nav">Hesabatlar</div>
-          <div class="mock-nav">İcazələr</div>
-        </div>
-        <div class="mock-main">
-          <div class="mock-stats">
-            <div class="mock-stat" style="background:#e0f2fe"><b>1,200</b><s>İşçi</s></div>
-            <div class="mock-stat" style="background:#dcfce7"><b>1,140</b><s>İşdə</s></div>
-            <div class="mock-stat" style="background:#fef9c3"><b>40</b><s>Gecikmiş</s></div>
-            <div class="mock-stat" style="background:#fee2e2"><b>20</b><s>Yoxdur</s></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radius HR — Presentation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!-- 1. COVER -->
+        <section class="sl-cover">
+          <div class="sl-cover__circles">
+            <div class="sl-cover__c sl-cover__c--1"></div>
+             ̰ ̰ ̰
+            <div class="sl-cover__c sl-cover__c--2"></div>
+            <div class="sl-cover__c sl-cover__c--3"></div>
           </div>
-          <div class="mock-chart">
-            <div class="mock-chart-title">Bu Həftə Davamiyyət</div>
-            <div class="mock-bars">
-              <div class="mock-bw"><div class="mock-b" style="height:65%"></div><span>B</span></div>
-              <div class="mock-bw"><div class="mock-b" style="height:80%"></div><span>Ç</span></div>
-              <div class="mock-bw"><div class="mock-b" style="height:55%"></div><span>Ç</span></div>
-              <div class="mock-bw"><div class="mock-b" style="height:90%"></div><span>C</span></div>
-              <div class="mock-bw"><div class="mock-b" style="height:72%"></div><span>C</span></div>
+          <div class="sl-cover__left">
+            <div class="sl-cover__brand">
+              <div class="sl-cover__logo">R</div>
+              <span>Radius</span>
+            </div>
+            <div class="sl-cover__eyebrow">HR Management Platform</div>
+            <h1 class="sl-cover__title">
+              İşçilərinizi<br /><span
+                class="sl-cover__typewriter"
+                id="twText"
+              ></span
+              ><span class="sl-cover__cursor">|</span>
+            </h1>
+            <p class="sl-cover__sub">
+              Davamiyyət, hesabat, icazə — hamısı bir platformada.<br />Real
+              vaxt, avtomatik, dəqiq.
+            </p>
+
+            <div class="sl-cover__kpis">
+              <div class="sl-cover__kpi"><b>100%</b><span>Avtomatik</span></div>
+              <div class="sl-cover__kpi-sep"></div>
+              <div class="sl-cover__kpi"><b>3</b><span>Dil</span></div>
+              <div class="sl-cover__kpi-sep"></div>
+              <div class="sl-cover__kpi"><b>∞</b><span>Şirkət</span></div>
+              <div class="sl-cover__kpi-sep"></div>
+              <div class="sl-cover__kpi"><b>24/7</b><span>Əlçatan</span></div>
+            </div>
+
+            <div class="sl-cover__tags">
+              <span>📱 Mobil Check-in</span>
+              <span>📊 Hesabatlar</span>
+              <span>🔲 QR Kod</span>
+              <span>📍 GPS Doğrulama</span>
+            </div>
+
+            <div class="sl-cover__divider"></div>
+
+            <div class="sl-cover__trust">
+              <div class="sl-cover__trust-label">Güvənilən platforma</div>
+              <div class="sl-cover__trust-items">
+                <div class="sl-cover__trust-item">
+                  <div class="sl-cover__trust-icon">🔒</div>
+                  <span>Şifrəli məlumat</span>
+                </div>
+                <div class="sl-cover__trust-item">
+                  <div class="sl-cover__trust-icon">⚡</div>
+                  <span>1 gündə quraşdırma</span>
+                </div>
+                <div class="sl-cover__trust-item">
+                  <div class="sl-cover__trust-icon">🎯</div>
+                  <span>Texniki dəstək</span>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="mock-rows">
-            <div class="mock-row"><div class="mock-av">AH</div><div class="mock-nm">Anar Həsənov</div><div class="mock-badge" style="background:#dcfce7;color:#15803d">İşdə</div></div>
-            <div class="mock-row"><div class="mock-av">LM</div><div class="mock-nm">Leyla Məmmədova</div><div class="mock-badge" style="background:#fef9c3;color:#854d0e">Gecikmiş</div></div>
-            <div class="mock-row"><div class="mock-av">TQ</div><div class="mock-nm">Tural Quliyev</div><div class="mock-badge" style="background:#fee2e2;color:#991b1b">Yoxdur</div></div>
+
+          <div class="sl-cover__right">
+            <div class="sl-cover__mockup">
+              <div class="mock-bar">
+                <span class="md r"></span><span class="md y"></span
+                ><span class="md g"></span
+                ><span class="mu">radius.hr/dashboard</span>
+              </div>
+              <div class="mock-body">
+                <div class="mock-side">
+                  <div class="mock-logo">R</div>
+                  <div class="mock-nav on">Dashboard</div>
+                  <div class="mock-nav">Davamiyyət</div>
+                  <div class="mock-nav">İşçilər</div>
+                  <div class="mock-nav">Hesabatlar</div>
+                  <div class="mock-nav">İcazələr</div>
+                </div>
+                <div class="mock-main">
+                  <div class="mock-stats">
+                    <div class="mock-stat" style="background: #e0f2fe">
+                      <b>1,200</b><s>İşçi</s>
+                    </div>
+                    <div class="mock-stat" style="background: #dcfce7">
+                      <b>1,140</b><s>İşdə</s>
+                    </div>
+                    <div class="mock-stat" style="background: #fef9c3">
+                      <b>40</b><s>Gecikmiş</s>
+                    </div>
+                    <div class="mock-stat" style="background: #fee2e2">
+                      <b>20</b><s>Yoxdur</s>
+                    </div>
+                  </div>
+                  <div class="mock-chart">
+                    <div class="mock-chart-title">Bu Həftə Davamiyyət</div>
+                    <div class="mock-bars">
+                      <div class="mock-bw">
+                        <div class="mock-b" style="height: 65%"></div>
+                        <span>B</span>
+                      </div>
+                      <div class="mock-bw">
+                        <div class="mock-b" style="height: 80%"></div>
+                        <span>Ç</span>
+                      </div>
+                      <div class="mock-bw">
+                        <div class="mock-b" style="height: 55%"></div>
+                        <span>Ç</span>
+                      </div>
+                      <div class="mock-bw">
+                        <div class="mock-b" style="height: 90%"></div>
+                        <span>C</span>
+                      </div>
+                      <div class="mock-bw">
+                        <div class="mock-b" style="height: 72%"></div>
+                        <span>C</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mock-rows">
+                    <div class="mock-row">
+                      <div class="mock-av">AH</div>
+                      <div class="mock-nm">Anar Həsənov</div>
+                      <div
+                        class="mock-badge"
+                        style="background: #dcfce7; color: #15803d"
+                      >
+                        İşdə
+                      </div>
+                    </div>
+                    <div class="mock-row">
+                      <div class="mock-av">LM</div>
+                      <div class="mock-nm">Leyla Məmmədova</div>
+                      <div
+                        class="mock-badge"
+                        style="background: #fef9c3; color: #854d0e"
+                      >
+                        Gecikmiş
+                      </div>
+                    </div>
+                    <div class="mock-row">
+                      <div class="mock-av">TQ</div>
+                      <div class="mock-nm">Tural Quliyev</div>
+                      <div
+                        class="mock-badge"
+                        style="background: #fee2e2; color: #991b1b"
+                      >
+                        Yoxdur
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sl-cover__float sl-cover__float--1">
+              ✅ 09:02 — Check-in tamamlandı
+            </div>
+            <div class="sl-cover__float sl-cover__float--2">
+              📊 Aylıq hesabat hazırdır
+            </div>
+            <div class="sl-cover__float sl-cover__float--3">
+              🔔 3 işçi gecikib
+            </div>
           </div>
-        </div>
+        </section>
+
+        <!-- 2. PROBLEM -->
+        <section class="sl-problem">
+          <div class="sl-problem__left">
+            <div class="sl-eyebrow sl-eyebrow--light">Mövcud Problem</div>
+            <h2 class="sl-title sl-title--light">
+              HR-lar hər gün bu<br />problemlərlə üzləşir
+            </h2>
+            <div class="sl-problem__items">
+              <div class="sl-problem__item">
+                <div class="sl-problem__num">01</div>
+                <div class="sl-problem__txt">
+                  Davamiyyət kağız üzərində tutulur, səhvlər olur
+                </div>
+              </div>
+              <div class="sl-problem__item">
+                <div class="sl-problem__num">02</div>
+                <div class="sl-problem__txt">
+                  Aylıq hesabat hazırlamaq saatlar aparır
+                </div>
+              </div>
+              <div class="sl-problem__item">
+                <div class="sl-problem__num">03</div>
+                <div class="sl-problem__txt">
+                  Kim işdə, kim yoxdur — real vaxtda bilinmir
+                </div>
+              </div>
+              <div class="sl-problem__item">
+                <div class="sl-problem__num">04</div>
+                <div class="sl-problem__txt">
+                  İcazə prosesi telefon zəngləri ilə idarə olunur
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sl-problem__right">
+            <svg viewBox="0 0 300 300" class="sl-problem__svg">
+              <rect
+                x="30"
+                y="215"
+                width="240"
+                height="12"
+                rx="6"
+                fill="rgba(255,255,255,.15)"
+              />
+              <rect
+                x="55"
+                y="227"
+                width="10"
+                height="45"
+                rx="5"
+                fill="rgba(255,255,255,.1)"
+              />
+              <rect
+                x="235"
+                y="227"
+                width="10"
+                height="45"
+                rx="5"
+                fill="rgba(255,255,255,.1)"
+              />
+              <rect
+                x="80"
+                y="130"
+                width="140"
+                height="88"
+                rx="10"
+                fill="rgba(0,0,0,.3)"
+              />
+              <rect
+                x="86"
+                y="136"
+                width="128"
+                height="76"
+                rx="7"
+                fill="rgba(255,255,255,.08)"
+              />
+              <rect
+                x="90"
+                y="140"
+                width="118"
+                height="7"
+                rx="2"
+                fill="#f87171"
+                opacity=".8"
+              />
+              <rect
+                x="90"
+                y="151"
+                width="80"
+                height="4"
+                rx="2"
+                fill="rgba(255,255,255,.25)"
+              />
+              <rect
+                x="90"
+                y="159"
+                width="100"
+                height="4"
+                rx="2"
+                fill="rgba(255,255,255,.15)"
+              />
+              <rect
+                x="90"
+                y="167"
+                width="60"
+                height="4"
+                rx="2"
+                fill="rgba(255,255,255,.25)"
+              />
+              <rect
+                x="90"
+                y="175"
+                width="90"
+                height="4"
+                rx="2"
+                fill="rgba(255,255,255,.15)"
+              />
+              <rect
+                x="90"
+                y="183"
+                width="70"
+                height="4"
+                rx="2"
+                fill="#fbbf24"
+                opacity=".6"
+              />
+              <circle cx="190" cy="163" r="13" fill="#f87171" opacity=".9" />
+              <text
+                x="186.5"
+                y="168"
+                font-size="13"
+                fill="white"
+                font-weight="bold"
+              >
+                !
+              </text>
+              <rect
+                x="142"
+                y="218"
+                width="16"
+                height="10"
+                rx="3"
+                fill="rgba(0,0,0,.3)"
+              />
+              <rect
+                x="130"
+                y="227"
+                width="40"
+                height="5"
+                rx="2.5"
+                fill="rgba(0,0,0,.3)"
+              />
+              <circle cx="150" cy="97" r="26" fill="#f4c89a" />
+              <ellipse cx="150" cy="76" rx="26" ry="13" fill="#3d2b1f" />
+              <rect
+                x="124"
+                y="76"
+                width="7"
+                height="18"
+                rx="3.5"
+                fill="#3d2b1f"
+              />
+              <rect
+                x="169"
+                y="76"
+                width="7"
+                height="18"
+                rx="3.5"
+                fill="#3d2b1f"
+              />
+              <ellipse cx="141" cy="95" rx="3.5" ry="4.5" fill="#2b343e" />
+              <ellipse cx="159" cy="95" rx="3.5" ry="4.5" fill="#2b343e" />
+              <path
+                d="M136 88 Q141 85 146 88"
+                stroke="#3d2b1f"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              <path
+                d="M154 88 Q159 85 164 88"
+                stroke="#3d2b1f"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              <path
+                d="M143 108 Q150 104 157 108"
+                stroke="#c0392b"
+                stroke-width="1.8"
+                stroke-linecap="round"
+              />
+              <ellipse
+                cx="168"
+                cy="88"
+                rx="3.5"
+                ry="5"
+                fill="#60a5fa"
+                opacity=".8"
+              />
+              <path d="M168 83 L171 88 L165 88 Z" fill="#60a5fa" opacity=".8" />
+              <path
+                d="M112 190 Q112 148 150 143 Q188 148 188 190 L188 218 L112 218 Z"
+                fill="rgba(30,96,145,.8)"
+              />
+              <path
+                d="M139 143 L150 157 L161 143"
+                stroke="rgba(255,255,255,.6)"
+                stroke-width="1.8"
+                fill="none"
+              />
+              <rect
+                x="42"
+                y="92"
+                width="38"
+                height="28"
+                rx="3"
+                fill="rgba(255,255,255,.85)"
+                transform="rotate(-15 61 106)"
+              />
+              <line
+                x1="48"
+                y1="100"
+                x2="74"
+                y2="100"
+                stroke="#e2e8f0"
+                stroke-width="1.2"
+              />
+              <line
+                x1="48"
+                y1="106"
+                x2="70"
+                y2="106"
+                stroke="#e2e8f0"
+                stroke-width="1.2"
+              />
+              <line
+                x1="48"
+                y1="112"
+                x2="66"
+                y2="112"
+                stroke="#e2e8f0"
+                stroke-width="1.2"
+              />
+              <rect
+                x="220"
+                y="72"
+                width="38"
+                height="28"
+                rx="3"
+                fill="rgba(255,255,255,.85)"
+                transform="rotate(12 239 86)"
+              />
+              <line
+                x1="226"
+                y1="80"
+                x2="252"
+                y2="80"
+                stroke="#e2e8f0"
+                stroke-width="1.2"
+              />
+              <line
+                x1="226"
+                y1="86"
+                x2="248"
+                y2="86"
+                stroke="#e2e8f0"
+                stroke-width="1.2"
+              />
+              <circle cx="52" cy="162" r="20" fill="rgba(255,255,255,.9)" />
+              <circle cx="52" cy="162" r="16" fill="#f8fafc" />
+              <line
+                x1="52"
+                y1="162"
+                x2="52"
+                y2="150"
+                stroke="#1e293b"
+                stroke-width="1.8"
+                stroke-linecap="round"
+              />
+              <line
+                x1="52"
+                y1="162"
+                x2="63"
+                y2="162"
+                stroke="#f87171"
+                stroke-width="2.2"
+                stroke-linecap="round"
+              />
+              <circle cx="52" cy="162" r="2" fill="#1e293b" />
+              <text
+                x="34"
+                y="68"
+                font-size="20"
+                fill="#fbbf24"
+                opacity=".9"
+                font-weight="bold"
+              >
+                ?
+              </text>
+              <text
+                x="258"
+                y="58"
+                font-size="16"
+                fill="#f87171"
+                opacity=".9"
+                font-weight="bold"
+              >
+                !
+              </text>
+              <text
+                x="272"
+                y="122"
+                font-size="14"
+                fill="#fbbf24"
+                opacity=".8"
+                font-weight="bold"
+              >
+                ?
+              </text>
+            </svg>
+          </div>
+        </section>
+
+        <!-- 3. SOLUTION -->
+        <section class="sl-solution">
+          <div class="sl-solution__top">
+            <div class="sl-eyebrow sl-eyebrow--light">Həll</div>
+            <h2 class="sl-title sl-title--light">
+              Radius ilə hər şey avtomatik
+            </h2>
+          </div>
+          <div class="sl-solution__cards">
+            <div class="sl-sol-card">
+              <div class="sl-sol-card__icon">✅</div>
+              <div class="sl-sol-card__title">Avtomatik Davamiyyət</div>
+              <div class="sl-sol-card__desc">
+                İşçi QR kod ilə check-in edir. Sistem Present / Gecikmiş /
+                Yoxdur statusunu özü müəyyən edir.
+              </div>
+              <div class="sl-sol-card__stat"><b>0</b> manual iş</div>
+            </div>
+            <div class="sl-sol-card sl-sol-card--accent">
+              <div class="sl-sol-card__icon">📊</div>
+              <div class="sl-sol-card__title">Bir Klik Hesabat</div>
+              <div class="sl-sol-card__desc">
+                Aylıq, departament, fərdi işçi hesabatları. Excel və PDF
+                formatında export.
+              </div>
+              <div class="sl-sol-card__stat"><b>5 dəq</b> əvəzinə 5 saniyə</div>
+            </div>
+            <div class="sl-sol-card">
+              <div class="sl-sol-card__icon">🔔</div>
+              <div class="sl-sol-card__title">Xəbərdarlıqlar</div>
+              <div class="sl-sol-card__desc">
+                Ardıcıl qayıb olan işçilər üçün avtomatik xəbərdarlıq. HR-ı
+                vaxtında məlumatlandırır.
+              </div>
+              <div class="sl-sol-card__stat"><b>Real vaxt</b> bildiriş</div>
+            </div>
+          </div>
+          <div class="sl-solution__bottom">
+            <div class="sl-sol-metric">
+              <div class="sl-sol-metric__val">95%</div>
+              <div class="sl-sol-metric__lbl">Vaxt qənaəti</div>
+            </div>
+            <div class="sl-sol-metric">
+              <div class="sl-sol-metric__val">0</div>
+              <div class="sl-sol-metric__lbl">Kağız sənəd</div>
+            </div>
+            <div class="sl-sol-metric">
+              <div class="sl-sol-metric__val">24/7</div>
+              <div class="sl-sol-metric__lbl">Əlçatanlıq</div>
+            </div>
+            <div class="sl-sol-metric">
+              <div class="sl-sol-metric__val">100%</div>
+              <div class="sl-sol-metric__lbl">Dəqiqlik</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 4. SUPER ADMIN -->
+        <section class="sl-screen sl-screen--orange">
+          <div class="sl-screen__head">
+            <div>
+              <div class="sl-eyebrow">Super Admin Panel</div>
+              <h2 class="sl-title">Bütün şirkətləri bir paneldən idarə et</h2>
+            </div>
+            <div class="sl-screen__pills">
+              <span class="sl-screen__pill">Şirkət siyahısı</span>
+              <span class="sl-screen__pill">HR hesabı</span>
+              <span class="sl-screen__pill">Audit log</span>
+            </div>
+          </div>
+          <div class="sl-screen__frame">
+            <div class="sl-screen__bar">
+              <span class="md r"></span><span class="md y"></span
+              ><span class="md g"></span
+              ><span class="mu">Super Admin — Company List</span>
+            </div>
+            <img
+              src="images/company-list.png"
+              alt="Company List"
+              class="sl-screen__img"
+            />
+          </div>
+        </section>
+
+        <!-- 5. DASHBOARD -->
+        <section class="sl-screen sl-screen--blue">
+          <div class="sl-screen__head">
+            <div>
+              <div class="sl-eyebrow">HR Dashboard</div>
+              <h2 class="sl-title">Real vaxt davamiyyət görünüşü</h2>
+            </div>
+            <div class="sl-screen__pills">
+              <span class="sl-screen__pill">1,200 İşçi</span>
+              <span class="sl-screen__pill sl-screen__pill--green"
+                >1,140 İşdə</span
+              >
+              <span class="sl-screen__pill sl-screen__pill--red"
+                >20 Yoxdur</span
+              >
+            </div>
+          </div>
+          <div class="sl-screen__frame">
+            <div class="sl-screen__bar">
+              <span class="md r"></span><span class="md y"></span
+              ><span class="md g"></span
+              ><span class="mu">radius.hr / dashboard</span>
+            </div>
+            <img
+              src="images/dashboard.png"
+              alt="Dashboard"
+              class="sl-screen__img"
+            />
+          </div>
+        </section>
+
+        <!-- 6. ATTENDANCE -->
+        <section class="sl-screen sl-screen--green">
+          <div class="sl-screen__head">
+            <div>
+              <div class="sl-eyebrow">Davamiyyət</div>
+              <h2 class="sl-title">İşçilərin giriş-çıxış qeydləri</h2>
+            </div>
+            <div class="sl-screen__pills">
+              <span class="sl-screen__pill sl-screen__pill--green">İşdə ✓</span>
+              <span class="sl-screen__pill sl-screen__pill--yellow"
+                >Gecikib ⏰</span
+              >
+              <span class="sl-screen__pill sl-screen__pill--red"
+                >İşdə deyil ✗</span
+              >
+            </div>
+          </div>
+          <div class="sl-screen__frame">
+            <div class="sl-screen__bar">
+              <span class="md r"></span><span class="md y"></span
+              ><span class="md g"></span
+              ><span class="mu">radius.hr / attendance</span>
+            </div>
+            <img
+              src="images/attendance.png"
+              alt="Attendance"
+              class="sl-screen__img"
+            />
+          </div>
+        </section>
+
+        <!-- 7. QR + COMPANY -->
+        <section class="sl-topbottom sl-topbottom--blue">
+          <div class="sl-topbottom__top">
+            <div class="sl-topbottom__info">
+              <div class="sl-eyebrow">Şirkət İdarəetməsi</div>
+              <h2 class="sl-title">QR Kod + Radius Sistemi</h2>
+            </div>
+            <div class="sl-topbottom__feats">
+              <div class="sl-feat">
+                <div class="sl-feat__icon" style="background: #e0f2fe">🔲</div>
+                <div>
+                  <div class="sl-feat__t">QR Kod Generasiyası</div>
+                  <div class="sl-feat__d">
+                    Hər şirkətin unikal QR kodu. İstənilən vaxt yenilənə bilər.
+                  </div>
+                </div>
+              </div>
+              <div class="sl-feat">
+                <div class="sl-feat__icon" style="background: #dcfce7">📍</div>
+                <div>
+                  <div class="sl-feat__t">Radius Zonası</div>
+                  <div class="sl-feat__d">
+                    Xəritədə ofis ərazisi müəyyən edilir. Check-in yalnız bu
+                    zonada mümkündür.
+                  </div>
+                </div>
+              </div>
+              <div class="sl-feat">
+                <div class="sl-feat__icon" style="background: #fef9c3">🗺️</div>
+                <div>
+                  <div class="sl-feat__t">Çoxlu Pin</div>
+                  <div class="sl-feat__d">
+                    Bir şirkətin bir neçə ofisi ola bilər. Hər pin üçün ayrı
+                    radius.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sl-topbottom__bottom">
+            <div class="sl-screen__frame">
+              <div class="sl-screen__bar">
+                <span class="md r"></span><span class="md y"></span
+                ><span class="md g"></span
+                ><span class="mu">Company Info — QR &amp; Radius</span>
+              </div>
+              <img
+                src="images/company-info.png"
+                alt="Company"
+                class="sl-topbottom__img"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!-- 8. RADIUS MAP -->
+        <section class="sl-screen sl-screen--yellow">
+          <div class="sl-screen__head">
+            <div>
+              <div class="sl-eyebrow">Xəritə</div>
+              <h2 class="sl-title">İnteraktiv xəritə ilə radius təyin et</h2>
+            </div>
+            <div class="sl-screen__pills">
+              <span class="sl-screen__pill">Slider ilə radius</span>
+              <span class="sl-screen__pill">GPS doğrulama</span>
+            </div>
+          </div>
+          <div class="sl-screen__frame">
+            <div class="sl-screen__bar">
+              <span class="md r"></span><span class="md y"></span
+              ><span class="md g"></span
+              ><span class="mu">Set Local Area Radius</span>
+            </div>
+            <img
+              src="images/radius-map.png"
+              alt="Radius"
+              class="sl-screen__img"
+            />
+          </div>
+        </section>
+
+        <!-- 9. NOTIFICATION -->
+        <section class="sl-topbottom sl-topbottom--purple">
+          <div class="sl-topbottom__top">
+            <div class="sl-topbottom__info">
+              <div class="sl-eyebrow">Bildiriş Sistemi</div>
+              <h2 class="sl-title">İşçilərə birbaşa bildiriş göndər</h2>
+            </div>
+            <div class="sl-topbottom__feats">
+              <div class="sl-feat">
+                <div class="sl-feat__icon" style="background: #f3e8ff">👥</div>
+                <div>
+                  <div class="sl-feat__t">Bütün İşçilərə</div>
+                  <div class="sl-feat__d">
+                    Bir klik ilə bütün komandaya bildiriş göndər.
+                  </div>
+                </div>
+              </div>
+              <div class="sl-feat">
+                <div class="sl-feat__icon" style="background: #ede9fe">🎯</div>
+                <div>
+                  <div class="sl-feat__t">Seçilmiş İşçilərə</div>
+                  <div class="sl-feat__d">
+                    Konkret işçiləri seç, fərdi bildiriş göndər.
+                  </div>
+                </div>
+              </div>
+              <div class="sl-feat">
+                <div class="sl-feat__icon" style="background: #ddd6fe">🏢</div>
+                <div>
+                  <div class="sl-feat__t">Departament üzrə</div>
+                  <div class="sl-feat__d">
+                    Bütün departamenta eyni anda bildiriş göndər.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sl-topbottom__bottom">
+            <div class="sl-screen__frame">
+              <div class="sl-screen__bar">
+                <span class="md r"></span><span class="md y"></span
+                ><span class="md g"></span
+                ><span class="mu">Send Notification</span>
+              </div>
+              <img
+                src="images/notification.png"
+                alt="Notification"
+                class="sl-topbottom__img"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!-- 10. PERFORMANCE -->
+        <section class="sl-screen sl-screen--blue">
+          <div class="sl-screen__head">
+            <div>
+              <div class="sl-eyebrow">Performans</div>
+              <h2 class="sl-title">İşçilərin performansını real vaxtda izlə</h2>
+            </div>
+            <div class="sl-screen__pills">
+              <span class="sl-screen__pill">Günlük / Aylıq / İllik</span>
+              <span class="sl-screen__pill">Şöbə filtri</span>
+              <span class="sl-screen__pill">Excel export</span>
+            </div>
+          </div>
+          <div class="sl-screen__frame">
+            <div class="sl-screen__bar">
+              <span class="md r"></span><span class="md y"></span
+              ><span class="md g"></span
+              ><span class="mu">radius.hr / performance</span>
+            </div>
+            <img
+              src="images/performance.png"
+              alt="Performance"
+              class="sl-screen__img"
+            />
+          </div>
+        </section>
+
+        <!-- 11. MOBILE -->
+        <section class="sl-mobile">
+          <div class="sl-mobile__left">
+            <div class="sl-eyebrow sl-eyebrow--light">Mobil Tətbiq</div>
+            <h2 class="sl-title sl-title--light">
+              İşçilər üçün sadə,<br />sürətli check-in
+            </h2>
+            <div class="sl-mobile__feats">
+              <div class="sl-mobile__feat">
+                <div class="sl-mobile__fnum">1</div>
+                <div><b>Giriş</b> — Telefon + şifrə</div>
+              </div>
+              <div class="sl-mobile__feat">
+                <div class="sl-mobile__fnum">2</div>
+                <div><b>QR Skan</b> — Şirkətin QR kodunu oxut</div>
+              </div>
+              <div class="sl-mobile__feat">
+                <div class="sl-mobile__fnum">3</div>
+                <div><b>Üz Doğrulama</b> — Selfie ilə kimlik</div>
+              </div>
+              <div class="sl-mobile__feat">
+                <div class="sl-mobile__fnum">4</div>
+                <div><b>Tamamlandı</b> — Sistem qeyd edir</div>
+              </div>
+            </div>
+          </div>
+          <div class="sl-mobile__right">
+            <div class="sl-mobile__stack">
+              <img
+                src="images/mobile-1.png"
+                alt="Mobile screens 1"
+                class="sl-mobile__stack-img"
+              />
+              <img
+                src="images/mobile-2.png"
+                alt="Mobile screens 2"
+                class="sl-mobile__stack-img"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!-- 11. CTA -->
+        <section class="sl-cta">
+          <div class="sl-cta__circles">
+            <div class="sl-cta__c sl-cta__c--1"></div>
+            <div class="sl-cta__c sl-cta__c--2"></div>
+          </div>
+          <div class="sl-cta__inner">
+            <div class="sl-eyebrow sl-eyebrow--light">Başlayın</div>
+            <h2 class="sl-title sl-title--light">Şirkətiniz üçün hazırdır</h2>
+            <div class="sl-cta__grid">
+              <div class="sl-cta__card">
+                <div class="sl-cta__card-icon">🚀</div>
+                <div class="sl-cta__card-title">Radius HR</div>
+                <ul class="sl-cta__list">
+                  <li>Limitsiz işçi</li>
+                  <li>QR + GPS check-in</li>
+                  <li>Bütün hesabatlar</li>
+                  <li>Excel / PDF export</li>
+                  <li>3 dil dəstəyi</li>
+                  <li>Mobil tətbiq</li>
+                  <li>Bildiriş sistemi</li>
+                  <li>Texniki dəstək</li>
+                </ul>
+                <div class="sl-cta__btn">Əlaqə Saxlayın →</div>
+              </div>
+              <div class="sl-cta__benefits custom_classs">
+                <div class="sl-cta__benefit">
+                  <div class="sl-cta__b-icon">⚡</div>
+                  <div>
+                    <b>Sürətli Quraşdırma</b>
+                    <p>1 iş günü ərzində sisteminiz hazır olur</p>
+                  </div>
+                </div>
+                <div class="sl-cta__benefit">
+                  <div class="sl-cta__b-icon">🔒</div>
+                  <div>
+                    <b>Təhlükəsiz</b>
+                    <p>Məlumatlarınız şifrəli saxlanılır</p>
+                  </div>
+                </div>
+                <div class="sl-cta__benefit">
+                  <div class="sl-cta__b-icon">📞</div>
+                  <div>
+                    <b>Dəstək</b>
+                    <p>İstənilən sualınız üçün bizimlə əlaqə saxlayın</p>
+                  </div>
+                </div>
+                <div class="sl-cta__benefit">
+                  <div class="sl-cta__b-icon">🔄</div>
+                  <div>
+                    <b>Daim Yenilənir</b>
+                    <p>Yeni funksiyalar avtomatik əlavə olunur</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 12. END -->
+        <section class="sl-end">
+          <div class="sl-end__circles">
+            <div class="sl-end__c sl-end__c--1"></div>
+            <div class="sl-end__c sl-end__c--2"></div>
+          </div>
+          <div class="sl-end__inner">
+            <div class="sl-end__logo">R</div>
+            <h2 class="sl-end__title">Radius HR</h2>
+            <p class="sl-end__sub">
+              İşçilərinizin davamiyyətini idarə etməyin ən asan yolu
+            </p>
+            <div class="sl-end__contacts">
+              <div class="sl-end__contact">🌐 https://satsolution.az/</div>
+              <div class="sl-end__contact">📧 info@radius.az</div>
+              <div class="sl-end__contact">📞 +994 XX XXX XX XX</div>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
-    <div class="sl-cover__float sl-cover__float--1">✅ 09:02 — Check-in tamamlandı</div>
-    <div class="sl-cover__float sl-cover__float--2">📊 Aylıq hesabat hazırdır</div>
-    <div class="sl-cover__float sl-cover__float--3">🔔 3 işçi gecikib</div>
-  </div>
-</section>
-
-<!-- 2. PROBLEM -->
-<section class="sl-problem">
-  <div class="sl-problem__left">
-    <div class="sl-eyebrow sl-eyebrow--light">Mövcud Problem</div>
-    <h2 class="sl-title sl-title--light">HR-lar hər gün bu<br>problemlərlə üzləşir</h2>
-    <div class="sl-problem__items">
-      <div class="sl-problem__item"><div class="sl-problem__num">01</div><div class="sl-problem__txt">Davamiyyət kağız üzərində tutulur, səhvlər olur</div></div>
-      <div class="sl-problem__item"><div class="sl-problem__num">02</div><div class="sl-problem__txt">Aylıq hesabat hazırlamaq saatlar aparır</div></div>
-      <div class="sl-problem__item"><div class="sl-problem__num">03</div><div class="sl-problem__txt">Kim işdə, kim yoxdur — real vaxtda bilinmir</div></div>
-      <div class="sl-problem__item"><div class="sl-problem__num">04</div><div class="sl-problem__txt">İcazə prosesi telefon zəngləri ilə idarə olunur</div></div>
-    </div>
-  </div>
-  <div class="sl-problem__right">
-    <svg viewBox="0 0 300 300" class="sl-problem__svg">
-      <rect x="30" y="215" width="240" height="12" rx="6" fill="rgba(255,255,255,.15)"/>
-      <rect x="55" y="227" width="10" height="45" rx="5" fill="rgba(255,255,255,.1)"/>
-      <rect x="235" y="227" width="10" height="45" rx="5" fill="rgba(255,255,255,.1)"/>
-      <rect x="80" y="130" width="140" height="88" rx="10" fill="rgba(0,0,0,.3)"/>
-      <rect x="86" y="136" width="128" height="76" rx="7" fill="rgba(255,255,255,.08)"/>
-      <rect x="90" y="140" width="118" height="7" rx="2" fill="#f87171" opacity=".8"/>
-      <rect x="90" y="151" width="80" height="4" rx="2" fill="rgba(255,255,255,.25)"/>
-      <rect x="90" y="159" width="100" height="4" rx="2" fill="rgba(255,255,255,.15)"/>
-      <rect x="90" y="167" width="60" height="4" rx="2" fill="rgba(255,255,255,.25)"/>
-      <rect x="90" y="175" width="90" height="4" rx="2" fill="rgba(255,255,255,.15)"/>
-      <rect x="90" y="183" width="70" height="4" rx="2" fill="#fbbf24" opacity=".6"/>
-      <circle cx="190" cy="163" r="13" fill="#f87171" opacity=".9"/>
-      <text x="186.5" y="168" font-size="13" fill="white" font-weight="bold">!</text>
-      <rect x="142" y="218" width="16" height="10" rx="3" fill="rgba(0,0,0,.3)"/>
-      <rect x="130" y="227" width="40" height="5" rx="2.5" fill="rgba(0,0,0,.3)"/>
-      <circle cx="150" cy="97" r="26" fill="#f4c89a"/>
-      <ellipse cx="150" cy="76" rx="26" ry="13" fill="#3d2b1f"/>
-      <rect x="124" y="76" width="7" height="18" rx="3.5" fill="#3d2b1f"/>
-      <rect x="169" y="76" width="7" height="18" rx="3.5" fill="#3d2b1f"/>
-      <ellipse cx="141" cy="95" rx="3.5" ry="4.5" fill="#2b343e"/>
-      <ellipse cx="159" cy="95" rx="3.5" ry="4.5" fill="#2b343e"/>
-      <path d="M136 88 Q141 85 146 88" stroke="#3d2b1f" stroke-width="2" stroke-linecap="round"/>
-      <path d="M154 88 Q159 85 164 88" stroke="#3d2b1f" stroke-width="2" stroke-linecap="round"/>
-      <path d="M143 108 Q150 104 157 108" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
-      <ellipse cx="168" cy="88" rx="3.5" ry="5" fill="#60a5fa" opacity=".8"/>
-      <path d="M168 83 L171 88 L165 88 Z" fill="#60a5fa" opacity=".8"/>
-      <path d="M112 190 Q112 148 150 143 Q188 148 188 190 L188 218 L112 218 Z" fill="rgba(30,96,145,.8)"/>
-      <path d="M139 143 L150 157 L161 143" stroke="rgba(255,255,255,.6)" stroke-width="1.8" fill="none"/>
-      <rect x="42" y="92" width="38" height="28" rx="3" fill="rgba(255,255,255,.85)" transform="rotate(-15 61 106)"/>
-      <line x1="48" y1="100" x2="74" y2="100" stroke="#e2e8f0" stroke-width="1.2"/>
-      <line x1="48" y1="106" x2="70" y2="106" stroke="#e2e8f0" stroke-width="1.2"/>
-      <line x1="48" y1="112" x2="66" y2="112" stroke="#e2e8f0" stroke-width="1.2"/>
-      <rect x="220" y="72" width="38" height="28" rx="3" fill="rgba(255,255,255,.85)" transform="rotate(12 239 86)"/>
-      <line x1="226" y1="80" x2="252" y2="80" stroke="#e2e8f0" stroke-width="1.2"/>
-      <line x1="226" y1="86" x2="248" y2="86" stroke="#e2e8f0" stroke-width="1.2"/>
-      <circle cx="52" cy="162" r="20" fill="rgba(255,255,255,.9)"/>
-      <circle cx="52" cy="162" r="16" fill="#f8fafc"/>
-      <line x1="52" y1="162" x2="52" y2="150" stroke="#1e293b" stroke-width="1.8" stroke-linecap="round"/>
-      <line x1="52" y1="162" x2="63" y2="162" stroke="#f87171" stroke-width="2.2" stroke-linecap="round"/>
-      <circle cx="52" cy="162" r="2" fill="#1e293b"/>
-      <text x="34" y="68" font-size="20" fill="#fbbf24" opacity=".9" font-weight="bold">?</text>
-      <text x="258" y="58" font-size="16" fill="#f87171" opacity=".9" font-weight="bold">!</text>
-      <text x="272" y="122" font-size="14" fill="#fbbf24" opacity=".8" font-weight="bold">?</text>
-    </svg>
-  </div>
-</section>
-
-<!-- 3. SOLUTION -->
-<section class="sl-solution">
-  <div class="sl-solution__top">
-    <div class="sl-eyebrow sl-eyebrow--light">Həll</div>
-    <h2 class="sl-title sl-title--light">Radius ilə hər şey avtomatik</h2>
-  </div>
-  <div class="sl-solution__cards">
-    <div class="sl-sol-card">
-      <div class="sl-sol-card__icon">✅</div>
-      <div class="sl-sol-card__title">Avtomatik Davamiyyət</div>
-      <div class="sl-sol-card__desc">İşçi QR kod ilə check-in edir. Sistem Present / Gecikmiş / Yoxdur statusunu özü müəyyən edir.</div>
-      <div class="sl-sol-card__stat"><b>0</b> manual iş</div>
-    </div>
-    <div class="sl-sol-card sl-sol-card--accent">
-      <div class="sl-sol-card__icon">📊</div>
-      <div class="sl-sol-card__title">Bir Klik Hesabat</div>
-      <div class="sl-sol-card__desc">Aylıq, departament, fərdi işçi hesabatları. Excel və PDF formatında export.</div>
-      <div class="sl-sol-card__stat"><b>5 dəq</b> əvəzinə 5 saniyə</div>
-    </div>
-    <div class="sl-sol-card">
-      <div class="sl-sol-card__icon">🔔</div>
-      <div class="sl-sol-card__title">Xəbərdarlıqlar</div>
-      <div class="sl-sol-card__desc">Ardıcıl qayıb olan işçilər üçün avtomatik xəbərdarlıq. HR-ı vaxtında məlumatlandırır.</div>
-      <div class="sl-sol-card__stat"><b>Real vaxt</b> bildiriş</div>
-    </div>
-  </div>
-  <div class="sl-solution__bottom">
-    <div class="sl-sol-metric"><div class="sl-sol-metric__val">95%</div><div class="sl-sol-metric__lbl">Vaxt qənaəti</div></div>
-    <div class="sl-sol-metric"><div class="sl-sol-metric__val">0</div><div class="sl-sol-metric__lbl">Kağız sənəd</div></div>
-    <div class="sl-sol-metric"><div class="sl-sol-metric__val">24/7</div><div class="sl-sol-metric__lbl">Əlçatanlıq</div></div>
-    <div class="sl-sol-metric"><div class="sl-sol-metric__val">100%</div><div class="sl-sol-metric__lbl">Dəqiqlik</div></div>
-  </div>
-</section>
-
-<!-- 4. SUPER ADMIN -->
-<section class="sl-screen sl-screen--orange">
-  <div class="sl-screen__head">
-    <div><div class="sl-eyebrow">Super Admin Panel</div><h2 class="sl-title">Bütün şirkətləri bir paneldən idarə et</h2></div>
-    <div class="sl-screen__pills">
-      <span class="sl-screen__pill">Şirkət siyahısı</span>
-      <span class="sl-screen__pill">HR hesabı</span>
-      <span class="sl-screen__pill">Audit log</span>
-    </div>
-  </div>
-  <div class="sl-screen__frame">
-    <div class="sl-screen__bar"><span class="md r"></span><span class="md y"></span><span class="md g"></span><span class="mu">Super Admin — Company List</span></div>
-    <img src="images/company-list.png" alt="Company List" class="sl-screen__img">
-  </div>
-</section>
-
-<!-- 5. DASHBOARD -->
-<section class="sl-screen sl-screen--blue">
-  <div class="sl-screen__head">
-    <div><div class="sl-eyebrow">HR Dashboard</div><h2 class="sl-title">Real vaxt davamiyyət görünüşü</h2></div>
-    <div class="sl-screen__pills">
-      <span class="sl-screen__pill">1,200 İşçi</span>
-      <span class="sl-screen__pill sl-screen__pill--green">1,140 İşdə</span>
-      <span class="sl-screen__pill sl-screen__pill--red">20 Yoxdur</span>
-    </div>
-  </div>
-  <div class="sl-screen__frame">
-    <div class="sl-screen__bar"><span class="md r"></span><span class="md y"></span><span class="md g"></span><span class="mu">radius.hr / dashboard</span></div>
-    <img src="images/dashboard.png" alt="Dashboard" class="sl-screen__img">
-  </div>
-</section>
-
-<!-- 6. ATTENDANCE -->
-<section class="sl-screen sl-screen--green">
-  <div class="sl-screen__head">
-    <div><div class="sl-eyebrow">Davamiyyət</div><h2 class="sl-title">İşçilərin giriş-çıxış qeydləri</h2></div>
-    <div class="sl-screen__pills">
-      <span class="sl-screen__pill sl-screen__pill--green">İşdə ✓</span>
-      <span class="sl-screen__pill sl-screen__pill--yellow">Gecikib ⏰</span>
-      <span class="sl-screen__pill sl-screen__pill--red">İşdə deyil ✗</span>
-    </div>
-  </div>
-  <div class="sl-screen__frame">
-    <div class="sl-screen__bar"><span class="md r"></span><span class="md y"></span><span class="md g"></span><span class="mu">radius.hr / attendance</span></div>
-    <img src="images/attendance.png" alt="Attendance" class="sl-screen__img">
-  </div>
-</section>
-
-<!-- 7. QR + COMPANY -->
-<section class="sl-topbottom sl-topbottom--blue">
-  <div class="sl-topbottom__top">
-    <div class="sl-topbottom__info">
-      <div class="sl-eyebrow">Şirkət İdarəetməsi</div>
-      <h2 class="sl-title">QR Kod + Radius Sistemi</h2>
-    </div>
-    <div class="sl-topbottom__feats">
-      <div class="sl-feat"><div class="sl-feat__icon" style="background:#e0f2fe">🔲</div><div><div class="sl-feat__t">QR Kod Generasiyası</div><div class="sl-feat__d">Hər şirkətin unikal QR kodu. İstənilən vaxt yenilənə bilər.</div></div></div>
-      <div class="sl-feat"><div class="sl-feat__icon" style="background:#dcfce7">📍</div><div><div class="sl-feat__t">Radius Zonası</div><div class="sl-feat__d">Xəritədə ofis ərazisi müəyyən edilir. Check-in yalnız bu zonada mümkündür.</div></div></div>
-      <div class="sl-feat"><div class="sl-feat__icon" style="background:#fef9c3">🗺️</div><div><div class="sl-feat__t">Çoxlu Pin</div><div class="sl-feat__d">Bir şirkətin bir neçə ofisi ola bilər. Hər pin üçün ayrı radius.</div></div></div>
-    </div>
-  </div>
-  <div class="sl-topbottom__bottom">
-    <div class="sl-screen__frame">
-      <div class="sl-screen__bar"><span class="md r"></span><span class="md y"></span><span class="md g"></span><span class="mu">Company Info — QR &amp; Radius</span></div>
-      <img src="images/company-info.png" alt="Company" class="sl-topbottom__img">
-    </div>
-  </div>
-</section>
-
-<!-- 8. RADIUS MAP -->
-<section class="sl-screen sl-screen--yellow">
-  <div class="sl-screen__head">
-    <div><div class="sl-eyebrow">Xəritə</div><h2 class="sl-title">İnteraktiv xəritə ilə radius təyin et</h2></div>
-    <div class="sl-screen__pills">
-      <span class="sl-screen__pill">Slider ilə radius</span>
-      <span class="sl-screen__pill">GPS doğrulama</span>
-    </div>
-  </div>
-  <div class="sl-screen__frame">
-    <div class="sl-screen__bar"><span class="md r"></span><span class="md y"></span><span class="md g"></span><span class="mu">Set Local Area Radius</span></div>
-    <img src="images/radius-map.png" alt="Radius" class="sl-screen__img">
-  </div>
-</section>
-
-<!-- 9. NOTIFICATION -->
-<section class="sl-topbottom sl-topbottom--purple">
-  <div class="sl-topbottom__top">
-    <div class="sl-topbottom__info">
-      <div class="sl-eyebrow">Bildiriş Sistemi</div>
-      <h2 class="sl-title">İşçilərə birbaşa bildiriş göndər</h2>
-    </div>
-    <div class="sl-topbottom__feats">
-      <div class="sl-feat"><div class="sl-feat__icon" style="background:#f3e8ff">👥</div><div><div class="sl-feat__t">Bütün İşçilərə</div><div class="sl-feat__d">Bir klik ilə bütün komandaya bildiriş göndər.</div></div></div>
-      <div class="sl-feat"><div class="sl-feat__icon" style="background:#ede9fe">🎯</div><div><div class="sl-feat__t">Seçilmiş İşçilərə</div><div class="sl-feat__d">Konkret işçiləri seç, fərdi bildiriş göndər.</div></div></div>
-      <div class="sl-feat"><div class="sl-feat__icon" style="background:#ddd6fe">🏢</div><div><div class="sl-feat__t">Departament üzrə</div><div class="sl-feat__d">Bütün departamenta eyni anda bildiriş göndər.</div></div></div>
-    </div>
-  </div>
-  <div class="sl-topbottom__bottom">
-    <div class="sl-screen__frame">
-      <div class="sl-screen__bar"><span class="md r"></span><span class="md y"></span><span class="md g"></span><span class="mu">Send Notification</span></div>
-      <img src="images/notification.png" alt="Notification" class="sl-topbottom__img">
-    </div>
-  </div>
-</section>
-
-<!-- 10. PERFORMANCE -->
-<section class="sl-screen sl-screen--blue">
-  <div class="sl-screen__head">
-    <div><div class="sl-eyebrow">Performans</div><h2 class="sl-title">İşçilərin performansını real vaxtda izlə</h2></div>
-    <div class="sl-screen__pills">
-      <span class="sl-screen__pill">Günlük / Aylıq / İllik</span>
-      <span class="sl-screen__pill">Şöbə filtri</span>
-      <span class="sl-screen__pill">Excel export</span>
-    </div>
-  </div>
-  <div class="sl-screen__frame">
-    <div class="sl-screen__bar"><span class="md r"></span><span class="md y"></span><span class="md g"></span><span class="mu">radius.hr / performance</span></div>
-    <img src="images/performance.png" alt="Performance" class="sl-screen__img">
-  </div>
-</section>
-
-<!-- 11. MOBILE -->
-<section class="sl-mobile">
-  <div class="sl-mobile__left">
-    <div class="sl-eyebrow sl-eyebrow--light">Mobil Tətbiq</div>
-    <h2 class="sl-title sl-title--light">İşçilər üçün sadə,<br>sürətli check-in</h2>
-    <div class="sl-mobile__feats">
-      <div class="sl-mobile__feat"><div class="sl-mobile__fnum">1</div><div><b>Giriş</b> — Telefon + şifrə</div></div>
-      <div class="sl-mobile__feat"><div class="sl-mobile__fnum">2</div><div><b>QR Skan</b> — Şirkətin QR kodunu oxut</div></div>
-      <div class="sl-mobile__feat"><div class="sl-mobile__fnum">3</div><div><b>Üz Doğrulama</b> — Selfie ilə kimlik</div></div>
-      <div class="sl-mobile__feat"><div class="sl-mobile__fnum">4</div><div><b>Tamamlandı</b> — Sistem qeyd edir</div></div>
-    </div>
-  </div>
-  <div class="sl-mobile__right">
-    <div class="sl-mobile__stack">
-      <img src="images/mobile-1.png" alt="Mobile screens 1" class="sl-mobile__stack-img">
-      <img src="images/mobile-2.png" alt="Mobile screens 2" class="sl-mobile__stack-img">
-    </div>
-  </div>
-</section>
-
-<!-- 11. CTA -->
-<section class="sl-cta">
-  <div class="sl-cta__circles">
-    <div class="sl-cta__c sl-cta__c--1"></div>
-    <div class="sl-cta__c sl-cta__c--2"></div>
-  </div>
-  <div class="sl-cta__inner">
-    <div class="sl-eyebrow sl-eyebrow--light">Başlayın</div>
-    <h2 class="sl-title sl-title--light">Şirkətiniz üçün hazırdır</h2>
-    <div class="sl-cta__grid">
-      <div class="sl-cta__card">
-        <div class="sl-cta__card-icon">🚀</div>
-        <div class="sl-cta__card-title">Radius HR</div>
-        <ul class="sl-cta__list">
-          <li>Limitsiz işçi</li>
-          <li>QR + GPS check-in</li>
-          <li>Bütün hesabatlar</li>
-          <li>Excel / PDF export</li>
-          <li>3 dil dəstəyi</li>
-          <li>Mobil tətbiq</li>
-          <li>Bildiriş sistemi</li>
-          <li>Texniki dəstək</li>
-        </ul>
-        <div class="sl-cta__btn">Əlaqə Saxlayın →</div>
-      </div>
-      <div class="sl-cta__benefits custom_classs">
-        <div class="sl-cta__benefit"><div class="sl-cta__b-icon">⚡</div><div><b>Sürətli Quraşdırma</b><p>1 iş günü ərzində sisteminiz hazır olur</p></div></div>
-        <div class="sl-cta__benefit"><div class="sl-cta__b-icon">🔒</div><div><b>Təhlükəsiz</b><p>Məlumatlarınız şifrəli saxlanılır</p></div></div>
-        <div class="sl-cta__benefit"><div class="sl-cta__b-icon">📞</div><div><b>Dəstək</b><p>İstənilən sualınız üçün bizimlə əlaqə saxlayın</p></div></div>
-        <div class="sl-cta__benefit"><div class="sl-cta__b-icon">🔄</div><div><b>Daim Yenilənir</b><p>Yeni funksiyalar avtomatik əlavə olunur</p></div></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- 12. END -->
-<section class="sl-end">
-  <div class="sl-end__circles">
-    <div class="sl-end__c sl-end__c--1"></div>
-    <div class="sl-end__c sl-end__c--2"></div>
-  </div>
-  <div class="sl-end__inner">
-    <div class="sl-end__logo">R</div>
-    <h2 class="sl-end__title">Radius HR</h2>
-    <p class="sl-end__sub">İşçilərinizin davamiyyətini idarə etməyin ən asan yolu</p>
-    <div class="sl-end__contacts">
-      <div class="sl-end__contact">🌐 radius.az</div>
-      <div class="sl-end__contact">📧 info@radius.az</div>
-      <div class="sl-end__contact">📞 +994 XX XXX XX XX</div>
-    </div>
-  </div>
-</section>
-
-</div></div>
-<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
-<script>
-Reveal.initialize({
-  hash: true,
-  transition: 'slide',
-  transitionSpeed: 'default',
-  backgroundTransition: 'fade',
-  controls: true,
-  controlsTutorial: false,
-  progress: true,
-  slideNumber: 'c/t',
-  showSlideNumber: 'all',
-  center: true,
-  autoAnimate: true,
-  autoAnimateDuration: 0.6,
-});
-
-// Typewriter effect
-const phrases = ['real vaxtda izləyin', 'avtomatik hesablayın', 'dəqiq idarə edin', 'asanlıqla analiz edin', 'bir klikdə hesabat alın'];
-let pi = 0, ci = 0, deleting = false;
-const el = document.getElementById('twText');
-function type() {
-  if (!el) return;
-  const cur = phrases[pi];
-  if (!deleting) {
-    el.textContent = cur.slice(0, ++ci);
-    if (ci === cur.length) { deleting = true; setTimeout(type, 1800); return; }
-  } else {
-    el.textContent = cur.slice(0, --ci);
-    if (ci === 0) { deleting = false; pi = (pi + 1) % phrases.length; }
-  }
-  setTimeout(type, deleting ? 50 : 80);
-}
-setTimeout(type, 600);
-</script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
