@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  radius-presentation:
+    build: .
+    container_name: radius-presentation
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
