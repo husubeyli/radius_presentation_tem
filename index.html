@@ -41,7 +41,7 @@
               ><span class="sl-cover__cursor">|</span>
             </h1>
             <p class="sl-cover__sub">
-              Davamiyyət, hesabat, icazə — hamısı bir platformada.<br />Real
+              Davamiyyət, hesabat, hesabatlar — hamısı bir platformada.<br />Real
               vaxt, avtomatik, dəqiq.
             </p>
 
@@ -111,7 +111,7 @@
                       <b>40</b><s>Gecikmiş</s>
                     </div>
                     <div class="mock-stat" style="background: #fee2e2">
-                      <b>20</b><s>Yoxdur</s>
+                      <b>20</b><s>İşdə deyil</s>
                     </div>
                   </div>
                   <div class="mock-chart">
@@ -210,12 +210,6 @@
                 <div class="sl-problem__num">03</div>
                 <div class="sl-problem__txt">
                   Kim işdə, kim yoxdur — real vaxtda bilinmir
-                </div>
-              </div>
-              <div class="sl-problem__item">
-                <div class="sl-problem__num">04</div>
-                <div class="sl-problem__txt">
-                  İcazə prosesi telefon zəngləri ilə idarə olunur
                 </div>
               </div>
             </div>
@@ -566,7 +560,7 @@
         </section>
 
         <!-- 4. SUPER ADMIN -->
-        <section class="sl-screen sl-screen--orange">
+        <!-- <section class="sl-screen sl-screen--orange">
           <div class="sl-screen__head">
             <div>
               <div class="sl-eyebrow">Super Admin Panel</div>
@@ -590,40 +584,105 @@
               class="sl-screen__img"
             />
           </div>
-        </section>
+        </section> -->
 
         <!-- 5. DASHBOARD -->
         <section class="sl-screen sl-screen--blue">
           <div class="sl-screen__head">
             <div>
-              <div class="sl-eyebrow">HR Dashboard</div>
-              <h2 class="sl-title">Real vaxt davamiyyət görünüşü</h2>
+              <div class="sl-eyebrow">İşçi İdarəetməsi</div>
+              <h2 class="sl-title">İşçi əlavə et, məlumatları idarə et</h2>
             </div>
             <div class="sl-screen__pills">
-              <span class="sl-screen__pill">1,200 İşçi</span>
-              <span class="sl-screen__pill sl-screen__pill--green"
-                >1,140 İşdə</span
-              >
-              <span class="sl-screen__pill sl-screen__pill--red"
-                >20 Yoxdur</span
-              >
+              <span class="sl-screen__pill">Ad / Soyad</span>
+              <span class="sl-screen__pill">Şöbə / Vəzifə</span>
+              <span class="sl-screen__pill">İş saatları</span>
             </div>
           </div>
           <div class="sl-screen__frame">
             <div class="sl-screen__bar">
               <span class="md r"></span><span class="md y"></span
               ><span class="md g"></span
-              ><span class="mu">radius.hr / dashboard</span>
+              ><span class="mu">radius.hr / add-employee</span>
             </div>
             <img
-              src="images/dashboard.png"
-              alt="Dashboard"
+              src="images/add-employee.png"
+              alt="Add Employee"
               class="sl-screen__img"
             />
           </div>
         </section>
 
-        <!-- 6. ATTENDANCE -->
+        <!-- 6. MOBILE -->
+        <section class="sl-mobile">
+          <div class="sl-mobile__left">
+            <div class="sl-eyebrow sl-eyebrow--light">Mobil Tətbiq</div>
+            <h2 class="sl-title sl-title--light">
+              İşçilər üçün sadə,<br />sürətli check-in
+            </h2>
+            <div class="sl-mobile__feats">
+              <div class="sl-mobile__feat">
+                <div class="sl-mobile__fnum">1</div>
+                <div><b>Giriş</b> — Telefon + şifrə</div>
+              </div>
+              <div class="sl-mobile__feat">
+                <div class="sl-mobile__fnum">2</div>
+                <div><b>QR Skan</b> — Şirkətin QR kodunu oxut</div>
+              </div>
+              <div class="sl-mobile__feat">
+                <div class="sl-mobile__fnum">3</div>
+                <div><b>Üz Doğrulama</b> — Selfie ilə kimlik</div>
+              </div>
+              <div class="sl-mobile__feat">
+                <div class="sl-mobile__fnum">4</div>
+                <div><b>Tamamlandı</b> — Sistem qeyd edir</div>
+              </div>
+            </div>
+          </div>
+          <div class="sl-mobile__right">
+            <div class="sl-mobile__stack">
+              <img
+                src="images/mobile-1.png"
+                alt="Mobile screens 1"
+                class="sl-mobile__stack-img"
+              />
+              <img
+                src="images/mobile-2.png"
+                alt="Mobile screens 2"
+                class="sl-mobile__stack-img"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!-- 7. PERFORMANCE -->
+        <section class="sl-screen sl-screen--blue">
+          <div class="sl-screen__head">
+            <div>
+              <div class="sl-eyebrow">Performans</div>
+              <h2 class="sl-title">İşçilərin performansını real vaxtda izlə</h2>
+            </div>
+            <div class="sl-screen__pills">
+              <span class="sl-screen__pill">Günlük / Aylıq / İllik</span>
+              <span class="sl-screen__pill">Şöbə filtri</span>
+              <span class="sl-screen__pill">Excel export</span>
+            </div>
+          </div>
+          <div class="sl-screen__frame">
+            <div class="sl-screen__bar">
+              <span class="md r"></span><span class="md y"></span
+              ><span class="md g"></span
+              ><span class="mu">radius.hr / performance</span>
+            </div>
+            <img
+              src="images/performance.png"
+              alt="Performance"
+              class="sl-screen__img"
+            />
+          </div>
+        </section>
+
+        <!-- 8. ATTENDANCE -->
         <section class="sl-screen sl-screen--green">
           <div class="sl-screen__head">
             <div>
@@ -654,7 +713,7 @@
           </div>
         </section>
 
-        <!-- 7. QR + COMPANY -->
+        <!-- 7. QR + RADIUS -->
         <section class="sl-topbottom sl-topbottom--blue">
           <div class="sl-topbottom__top">
             <div class="sl-topbottom__info">
@@ -698,45 +757,19 @@
               <div class="sl-screen__bar">
                 <span class="md r"></span><span class="md y"></span
                 ><span class="md g"></span
-                ><span class="mu">Company Info — QR &amp; Radius</span>
+                ><span class="mu">Set Local Area Radius</span>
               </div>
               <img
-                src="images/company-info.png"
-                alt="Company"
+                src="images/radius-map.png"
+                alt="Radius"
                 class="sl-topbottom__img"
               />
             </div>
           </div>
         </section>
 
-        <!-- 8. RADIUS MAP -->
-        <section class="sl-screen sl-screen--yellow">
-          <div class="sl-screen__head">
-            <div>
-              <div class="sl-eyebrow">Xəritə</div>
-              <h2 class="sl-title">İnteraktiv xəritə ilə radius təyin et</h2>
-            </div>
-            <div class="sl-screen__pills">
-              <span class="sl-screen__pill">Slider ilə radius</span>
-              <span class="sl-screen__pill">GPS doğrulama</span>
-            </div>
-          </div>
-          <div class="sl-screen__frame">
-            <div class="sl-screen__bar">
-              <span class="md r"></span><span class="md y"></span
-              ><span class="md g"></span
-              ><span class="mu">Set Local Area Radius</span>
-            </div>
-            <img
-              src="images/radius-map.png"
-              alt="Radius"
-              class="sl-screen__img"
-            />
-          </div>
-        </section>
-
         <!-- 9. NOTIFICATION -->
-        <section class="sl-topbottom sl-topbottom--purple">
+        <!-- <section class="sl-topbottom sl-topbottom--purple">
           <div class="sl-topbottom__top">
             <div class="sl-topbottom__info">
               <div class="sl-eyebrow">Bildiriş Sistemi</div>
@@ -786,78 +819,9 @@
               />
             </div>
           </div>
-        </section>
+        </section> -->
 
-        <!-- 10. PERFORMANCE -->
-        <section class="sl-screen sl-screen--blue">
-          <div class="sl-screen__head">
-            <div>
-              <div class="sl-eyebrow">Performans</div>
-              <h2 class="sl-title">İşçilərin performansını real vaxtda izlə</h2>
-            </div>
-            <div class="sl-screen__pills">
-              <span class="sl-screen__pill">Günlük / Aylıq / İllik</span>
-              <span class="sl-screen__pill">Şöbə filtri</span>
-              <span class="sl-screen__pill">Excel export</span>
-            </div>
-          </div>
-          <div class="sl-screen__frame">
-            <div class="sl-screen__bar">
-              <span class="md r"></span><span class="md y"></span
-              ><span class="md g"></span
-              ><span class="mu">radius.hr / performance</span>
-            </div>
-            <img
-              src="images/performance.png"
-              alt="Performance"
-              class="sl-screen__img"
-            />
-          </div>
-        </section>
-
-        <!-- 11. MOBILE -->
-        <section class="sl-mobile">
-          <div class="sl-mobile__left">
-            <div class="sl-eyebrow sl-eyebrow--light">Mobil Tətbiq</div>
-            <h2 class="sl-title sl-title--light">
-              İşçilər üçün sadə,<br />sürətli check-in
-            </h2>
-            <div class="sl-mobile__feats">
-              <div class="sl-mobile__feat">
-                <div class="sl-mobile__fnum">1</div>
-                <div><b>Giriş</b> — Telefon + şifrə</div>
-              </div>
-              <div class="sl-mobile__feat">
-                <div class="sl-mobile__fnum">2</div>
-                <div><b>QR Skan</b> — Şirkətin QR kodunu oxut</div>
-              </div>
-              <div class="sl-mobile__feat">
-                <div class="sl-mobile__fnum">3</div>
-                <div><b>Üz Doğrulama</b> — Selfie ilə kimlik</div>
-              </div>
-              <div class="sl-mobile__feat">
-                <div class="sl-mobile__fnum">4</div>
-                <div><b>Tamamlandı</b> — Sistem qeyd edir</div>
-              </div>
-            </div>
-          </div>
-          <div class="sl-mobile__right">
-            <div class="sl-mobile__stack">
-              <img
-                src="images/mobile-1.png"
-                alt="Mobile screens 1"
-                class="sl-mobile__stack-img"
-              />
-              <img
-                src="images/mobile-2.png"
-                alt="Mobile screens 2"
-                class="sl-mobile__stack-img"
-              />
-            </div>
-          </div>
-        </section>
-
-        <!-- 11. CTA -->
+        <!-- 12. CTA -->
         <section class="sl-cta">
           <div class="sl-cta__circles">
             <div class="sl-cta__c sl-cta__c--1"></div>

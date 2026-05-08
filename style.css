@@ -1769,3 +1769,14 @@
   background: #fee2e2;
   color: #991b1b;
 }
+
+/* COMBO SLIDE — Mobile + Add Employee */
+.sl-combo{display:grid!important;grid-template-columns:1fr 1.2fr;gap:24px;padding:24px 38px!important;height:100%;background:linear-gradient(135deg,#003d52 0%,#006c8c 50%,#0099c6 100%);overflow:hidden;}
+.sl-combo__left{display:flex;flex-direction:column;gap:12px;position:relative;z-index:2;}
+.sl-combo__imgs{display:flex;gap:10px;margin-top:auto;padding-top:12px;}
+.sl-combo__mimg{width:48%;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.35);object-fit:contain;max-height:160px;}
+.sl-combo__right{display:flex;flex-direction:column;gap:10px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:16px;backdrop-filter:blur(4px);}
+.sl-combo__right .sl-eyebrow{color:rgba(255,255,255,.7);}
+.sl-combo__right .sl-eyebrow::before{background:rgba(255,255,255,.5);}
+.sl-combo__right .sl-title{color:#fff!important;margin-bottom:10px!important;}
+.sl-combo__right .sl-screen__frame{flex:1;min-height:0;}

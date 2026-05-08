@@ -1,0 +1,419 @@
+================================================================
+RADIUS HR — SATIŞ DANIŞIQ MƏTNİ
+Professional Satış Nümayəndəsi Üçün Tam Ssenariy
+================================================================
+
+
+================================================================
+ÖN HAZIRLIK — GÖRÜŞDƏN ƏVVƏL BİLMƏLİ OLDUQLARIN
+================================================================
+
+RADIUS HR NƏDİR?
+-----------------
+Radius HR — şirkətlərin işçi davamiyyətini, iş saatlarını
+və performansını avtomatik idarə etməsi üçün hazırlanmış
+veb + mobil platformadır.
+
+Azerbaycanda hazırlanıb. SAT Solution şirkətinin məhsuludur.
+Sayt: satsolution.az
+
+NECƏ İŞLƏYİR? (Texniki olmayan izah)
+--------------------------------------
+1. Şirkət sistemi quraşdırır — HR panelə giriş alır
+2. HR işçiləri sistemə əlavə edir
+3. Hər ofisin QR kodu və GPS radiusu təyin edilir
+4. İşçilər mobil tətbiqdən QR skan + üz doğrulaması ilə
+   check-in edir
+5. Sistem avtomatik davamiyyəti qeyd edir, hesabatları
+   hazırlayır, gecikmələri bildirir
+
+KİM ÜÇÜN UYĞUNDUR?
+--------------------
+→ 10-dan çox işçisi olan istənilən şirkət
+→ Bir neçə ofisi olan şirkətlər
+→ Sahə işçiləri olan şirkətlər
+→ HR proseslərini avtomatlaşdırmaq istəyən rəhbərlər
+→ İşçi xərclərini optimallaşdırmaq istəyən maliyyəçilər
+
+ƏSAS FUNKSIONALLIQLAR:
+-----------------------
+✅ QR kod + GPS ilə check-in / check-out
+✅ Üz doğrulaması (başqası adına check-in mümkün deyil)
+✅ Real vaxt davamiyyət paneli
+✅ Performans hesabatları (işçi, şöbə, tarix üzrə)
+✅ Avtomatik gecikmə bildirişləri
+✅ Excel / PDF export
+✅ 3 dil dəstəyi (AZ, RU, EN)
+✅ Limitsiz işçi
+✅ Super Admin paneli (bir neçə şirkəti idarə etmək üçün)
+
+RƏQABƏT ÜSTÜNLÜYÜ:
+--------------------
+→ Yerli məhsul — Azərbaycan şirkətlərinin ehtiyaclarına uyğun
+→ Quraşdırma 1 iş günü — uzun tətbiq prosesi yoxdur
+→ Əlavə cihaz lazım deyil — işçinin öz telefonu kifayətdir
+→ GPS + üz doğrulaması — saxtakarlığın qarşısı alınır
+
+GÖRÜŞƏ HAZIRLAŞARKƏN:
+-----------------------
+→ Müştərinin şirkətinin fəaliyyət sahəsini öyrən
+→ Neçə işçisi olduğunu bil
+→ Hal-hazırda davamiyyəti necə idarə etdiklərini soruş
+→ HR komandası neçə nəfərdir — bil
+→ Əsas ağrı nöqtəsini müəyyən et: vaxt? səhv? şəffaflıq?
+
+================================================================
+GİRİŞ MƏTNİ — SLIDE AÇILMADAN ƏVVƏL (1-2 dəqiqə)
+================================================================
+
+Salam görüşün əvvəlində — hələ heç nə göstərməzdən əvvəl
+bu sözlərlə başla:
+
+---
+
+"Sizinlə tanış olmaqdan məmnunam.
+
+Başlamazdan əvvəl sizə bir neçə sözlə
+nə gətirdiyimi izah etmək istəyirəm.
+
+Radius HR — şirkətlərin işçi idarəetməsini
+avtomatlaşdıran bir platformadır.
+
+Sadə dillə desək:
+Şirkətinizdə neçə işçi var, onlar hər gün
+işə gəlirlərmi, vaxtında gəlirlərmi, nə qədər işləyirlər —
+bütün bunları sistem özü izləyir, özü hesablayır,
+özü sizə bildirir.
+
+Siz heç nə etmirsiniz.
+
+HR komandanız artıq kağız tutmur, Excel doldurmur,
+telefon etmir. Onların vaxtı azad olur —
+daha vacib işlərə yönəlir.
+
+Şirkət üçün bu nə deməkdir?
+→ Vaxt qənaəti — aylıq saatlarla itirilən vaxt geri qayıdır
+→ Pul qənaəti — insan səhvlərindən yaranan itkilər sıfırlanır
+→ Şəffaflıq — rəhbər hər an, hər yerdən vəziyyəti görür
+→ Ədalət — hər işçinin performansı rəqəmlərlə ortadadır,
+  mübahisəyə yer qalmır
+
+Bütün bunlar bir platformada, bir abunə ilə.
+
+İndi istəsəniz ekranda göstərək —
+necə işlədiyini birlikdə baxaq."
+
+---
+
+[Prezentasiyanı aç — SLIDE 1-dən başla]
+
+================================================================
+
+
+----------------------------------------------------------------
+SLIDE 1 — COVER (Açılış & Tanıtım)
+----------------------------------------------------------------
+
+"Salam, vaxt ayırdığınız üçün təşəkkür edirəm."
+
+Bu gün sizə Radius HR platformasını tanıtmaq istəyirəm —
+amma əvvəlcə bir şeyi aydınlaşdıraq:
+
+Bu sadə bir proqram deyil.
+Bu, HR komandanızın hər gün itirdiyi saatları geri qaytaran,
+insan səhvlərini sıfıra endirən və şirkətinizin işçi
+idarəetməsini tamamilə avtomatlaşdıran bir sistemdir.
+
+Radius ilə davamiyyət, hesabat — hamısı bir platformada.
+Real vaxt. Avtomatik. Dəqiq.
+
+[Fasilə verin — dinləyicinin reaksiyasını oxuyun]
+
+"Sizin şirkətdə hal-hazırda davamiyyət necə idarə olunur?"
+
+[Cavabı dinləyin, sonra davam edin]
+
+
+----------------------------------------------------------------
+SLIDE 2 — PROBLEM (Ağrı Nöqtəsi)
+----------------------------------------------------------------
+
+"Çox maraqlıdır — bu, əslində bizim müştərilərimizin
+böyük əksəriyyətinin başladığı nöqtədir."
+
+İcazə verin, bir mənzərəni canlandırım:
+
+Hər səhər HR meneceri işə gəlir.
+Kimin gəldiyini, kimin gecikdiyini öyrənmək üçün
+ya telefon edir, ya kağız siyahıya baxır,
+ya da Excel faylını açır.
+
+Ay sonunda isə — saatlarla hesablama.
+Hər işçinin davamiyyəti əl ilə toplanır.
+Səhvlər olur. Mübahisələr yaranır.
+Vaxt itirilir — pul itirilir.
+
+Biz bu dörd problemi hər şirkətdə görürük:
+
+→ Davamiyyət kağız üzərində — səhvlər qaçınılmazdır
+→ Aylıq hesabat saatlar aparır
+→ Kim işdə, kim yoxdur — real vaxtda bilinmir
+
+"Bunlardan hansı sizin üçün ən böyük problemdir?"
+
+[Cavabı dinləyin — bu məlumat bağlayış üçün lazım olacaq]
+
+
+----------------------------------------------------------------
+SLIDE 3 — SOLUTION (Həll & Dəyər Təklifi)
+----------------------------------------------------------------
+
+"Məhz bu problemlər üçün Radius yaradılıb."
+
+Gəlin konkret danışaq:
+
+✅ AVTOMATIK DAVAMİYYƏT
+İşçi QR kodu skan edir — sistem Present, Gecikmiş
+və ya Yoxdur statusunu özü müəyyən edir.
+HR-ın heç bir müdaxiləsinə ehtiyac yoxdur.
+
+📊 BİR KLİK HESABAT
+Aylıq hesabat hazırlamaq üçün artıq saatlar lazım deyil.
+Bir klik — 5 saniyə — Excel və ya PDF hazırdır.
+Departament üzrə, işçi üzrə, tarix aralığı üzrə.
+
+🔔 AĞILLI XƏBƏRDARLIQLAR
+Ardıcıl qayıb olan işçilər üçün sistem avtomatik
+HR-ı xəbərdar edir. Siz hər şeyi vaxtında bilirsiniz.
+
+Nəticə?
+→ 95% vaxt qənaəti
+→ Sıfır kağız sənəd
+→ 24/7 əlçatanlıq
+→ 100% dəqiqlik
+
+"Düşünün — HR komandanız bu vaxtı nəyə sərf edə bilər?"
+
+
+----------------------------------------------------------------
+SLIDE 4 — İŞÇİ ƏLAVƏSİ (Add Employee)
+----------------------------------------------------------------
+
+"Sistemə başlamaq son dərəcə sadədir."
+
+HR meneceri paneldən işçini bir dəfə əlavə edir:
+Ad, soyad, telefon, iş saatları, şöbə, vəzifə.
+
+Bu qədər.
+
+Bundan sonra işçi mobil tətbiqdən sistemə daxil olur
+və avtomatik izlənməyə başlayır.
+
+Heç bir əlavə cihaz, heç bir texniki bilik tələb olunmur.
+
+"Sizin şirkətdə neçə işçi var? 
+[Cavab] — Onları sistemə əlavə etmək 
+cəmi [X] dəqiqə çəkər."
+
+
+----------------------------------------------------------------
+SLIDE 5 — MOBİL TƏTBİQ
+----------------------------------------------------------------
+
+"İşçilər tərəfindən proses necə işləyir?"
+
+Sadəcə 4 addım — 30 saniyə:
+
+1️⃣  Telefon nömrəsi və şifrə ilə giriş
+2️⃣  Şirkətin QR kodunu skan edir
+3️⃣  Selfie ilə üz doğrulaması — başqası check-in edə bilmir
+4️⃣  Sistem qeyd edir — işçinin işi bitdi
+
+Əlavə cihaz yoxdur. Kart oxuyucu yoxdur.
+İşçinin öz telefonu kifayətdir.
+
+"Üz doğrulaması xüsusilə vacibdir — 
+bu, başqasının adına check-in etməyin qarşısını alır.
+Şirkətlər bunu çox dəyərli hesab edir."
+
+
+----------------------------------------------------------------
+SLIDE 6 — PERFORMANS
+----------------------------------------------------------------
+
+"İndi isə mənə görə bu platformanın ən güclü hissəsinə keçək —
+Performans paneli."
+
+Bir sual: Siz hal-hazırda hər işçinin nə qədər işlədiyini,
+neçə dəfə gecikdiyini, neçə gün işdə olmadığını
+dəqiq bilirsinizmi?
+
+Əksər şirkətlərdə bu məlumat ya yoxdur, ya da
+aylarca gözləyib hesablamaq lazımdır.
+
+Radius-da bu məlumat real vaxtda, hər an qarşınızdadır.
+
+[Ekrana işarə edin]
+
+Yuxarıda 5 əsas göstərici görürsünüz:
+→ Ümumi işçi sayı
+→ Ortalama davamiyyət faizi — şirkətin sağlamlıq göstəricisi
+→ Ümumi gecikmə sayı
+→ Ümumi yoxdur sayı
+→ Bütün işçilərin toplam iş saatı
+
+Bu rəqəmlər hər gün avtomatik yenilənir.
+Siz heç nə etmirsiniz — sistem özü hesablayır.
+
+---
+
+"Amma ən dəyərli hissə budur:"
+
+Sistem iki işçini avtomatik ön plana çıxarır:
+
+🏆 MOST DISCIPLINED — Ən intizamlı işçi
+   Ən yüksək davamiyyət, ən az gecikmə.
+   Bu işçini görüb mükafatlandıra bilərsiniz.
+   Komandanın qalanına nümunə göstərə bilərsiniz.
+
+⚠️  NEEDS ATTENTION — Diqqət tələb edən işçi
+   Ardıcıl gecikmələr, çox sayda yoxdur.
+   Siz bunu ay sonunda deyil — bu gün bilirsiniz.
+   Erkən müdaxilə — böyük problemin qarşısını alır.
+
+---
+
+"Aşağıda isə şöbə üzrə müqayisə var."
+
+Mühasibatlıq şöbəsi necə? Satış şöbəsi necə?
+Hansı şöbədə problem var, hansında hər şey qaydasındadır —
+bir baxışda görürsünüz.
+
+---
+
+"Ən aşağıda isə Employee Performance Table var —
+hər işçinin tam tarixçəsi:"
+
+→ Neçə iş günü olub
+→ Neçə gün işdə olub
+→ Neçə dəfə gecikib
+→ Neçə gün yoxdur
+→ Plan saatı nə idi, faktiki nə qədər işlədi
+→ Gecikməyə sərf etdiyi ümumi saat
+
+Bu cədvəli Excel-ə export edib mühasibata,
+rəhbərliyə, ya da arxivə göndərə bilərsiniz.
+Bir klik — hazırdır.
+
+---
+
+"Düşünün — bu məlumatları toplamaq üçün
+əvvəllər neçə saat lazım olurdu?
+
+İndi isə bu məlumatlar hər an, hər yerdən,
+telefonunuzdan belə əlçatandır."
+
+[Fasilə — reaksiyanı oxuyun]
+
+"Hansı şöbənin performansını birinci yoxlamaq istərdiniz?"
+
+
+----------------------------------------------------------------
+SLIDE 7 — DAVAMIYYƏT
+----------------------------------------------------------------
+
+"Gündəlik davamiyyət mənzərəsi belədir:"
+
+Hər işçinin giriş və çıxış vaxtı real vaxtda görünür.
+Present — yaşıl. Gecikmiş — sarı. Yoxdur — qırmızı.
+
+Tarix aralığı seçib istənilən dövrü analiz edə bilərsiniz.
+Bir işçinin bütün ay ərzindəki tarixçəsini 
+10 saniyəyə görə bilərsiniz.
+
+"Əvvəllər bu məlumatı toplamaq üçün 
+neçə saat lazım olurdu?"
+
+[Cavabı dinləyin — bu, dəyəri vurğulamaq üçün fürsətdir]
+
+
+----------------------------------------------------------------
+SLIDE 8 — QR KOD + RADİUS
+----------------------------------------------------------------
+
+"Sistemin ən ağıllı hissəsi budur."
+
+Hər şirkətin unikal QR kodu var.
+Amma yalnız QR skan etmək kifayət deyil —
+
+GPS doğrulaması da var.
+
+Siz xəritədə ofis ətrafında radius müəyyən edirsiniz —
+məsələn 100 metr. İşçi yalnız həmin ərazidə olduqda
+check-in edə bilər.
+
+Evdən, maşından, kafedən check-in — mümkün deyil.
+
+Bir şirkətin bir neçə ofisi varsa — problem deyil.
+Hər ofis üçün ayrı pin, ayrı radius.
+
+"Bu funksiya xüsusilə sahə işçiləri olan
+şirkətlər üçün çox dəyərlidir."
+
+
+----------------------------------------------------------------
+SLIDE 9 — CTA (Bağlayış & Növbəti Addım)
+----------------------------------------------------------------
+
+"Yaxşı — bütün bunları gördünüz."
+
+İcazə verin, bir sual verim:
+"Əgər bu sistem sabahdan şirkətinizdə işləsəydi,
+HR komandanız nə qazanardı?"
+
+[Cavabı dinləyin]
+
+"Məhz buna görə müştərilərimiz Radius-u seçir."
+
+Radius HR ilə başlamaq üçün:
+→ Quraşdırma: 1 iş günü
+→ Məlumat təhlükəsizliyi: tam şifrəli
+→ Texniki dəstək: həmişə əlçatan
+→ Yeniliklər: avtomatik, əlavə ödəniş yoxdur
+
+"Növbəti addım olaraq sizin üçün demo quraşdırma
+keçirə bilərik — şirkətinizin real məlumatları ilə.
+Bu həftə nə vaxt uyğundur?"
+
+[Görüş təyin edin]
+
+Sayt: satsolution.az
+Email: info@radius.az
+
+
+================================================================
+ƏLAVƏ: ETİRAZLARA CAVABLAR
+================================================================
+
+❓ "Qiymət çox yüksəkdir"
+→ "Anlayıram. Gəlin hesablayaq: HR komandanız aylıq
+   davamiyyət hesablamağa neçə saat sərf edir?
+   Bu saatların dəyəri nə qədərdir? Radius bu xərci
+   ilk aydan geri qaytarır."
+
+❓ "İşçilər öyrənə bilməz"
+→ "Proses 4 addımdır — 30 saniyə çəkir.
+   Biz quraşdırma zamanı bütün işçilərə
+   təlim keçirik. Heç bir texniki bilik lazım deyil."
+
+❓ "Hazırda başqa sistem işlədirik"
+→ "Mövcud sisteminizdə hansı problemlər var?
+   [Dinləyin] — Radius məhz bu boşluqları doldurmaq
+   üçün hazırlanıb. Paralel işlədib müqayisə edə bilərsiniz."
+
+❓ "İndi vaxtımız yoxdur"
+→ "Tam anlayıram — məhz buna görə Radius var.
+   Quraşdırma 1 gün, öyrənmə isə 30 dəqiqə çəkir.
+   Sonra isə vaxt qazanırsınız, itirmirsiniz."
+
+================================================================
