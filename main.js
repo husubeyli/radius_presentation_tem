@@ -13,6 +13,17 @@ Reveal.initialize({
   autoAnimateDuration: 0.6,
 });
 
+// Hide global logo on last slide
+Reveal.on('slidechanged', function(event) {
+  const logo = document.querySelector('.global-logo');
+  if (!logo) return;
+  if (event.currentSlide.classList.contains('sl-end')) {
+    logo.style.display = 'none';
+  } else {
+    logo.style.display = 'block';
+  }
+});
+
 // Typewriter effect
 const phrases = [
   'real vaxtda izləyin',

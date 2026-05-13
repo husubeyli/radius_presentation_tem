@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Radius HR — Presentation</title>
+    <title>Radius — Presentation</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -29,7 +29,6 @@
           </div>
           <div class="sl-cover__left">
             <div class="sl-cover__brand">
-              <div class="sl-cover__logo">R</div>
               <span>Radius</span>
             </div>
             <div class="sl-cover__eyebrow">HR Management Platform</div>
@@ -504,37 +503,10 @@
           </div>
         </section> -->
 
-        <!-- 5. DASHBOARD -->
-        <section class="sl-screen sl-screen--blue">
-          <div class="sl-screen__head">
-            <div>
-              <div class="sl-eyebrow">İşçi İdarəetməsi</div>
-              <h2 class="sl-title">İşçi əlavə et, məlumatları idarə et</h2>
-            </div>
-            <div class="sl-screen__pills">
-              <span class="sl-screen__pill">Ad / Soyad</span>
-              <span class="sl-screen__pill">Şöbə / Vəzifə</span>
-              <span class="sl-screen__pill">İş saatları</span>
-            </div>
-          </div>
-          <div class="sl-screen__frame">
-            <div class="sl-screen__bar">
-              <span class="md r"></span><span class="md y"></span
-              ><span class="md g"></span
-              ><span class="mu">radius.hr / add-employee</span>
-            </div>
-            <img
-              src="images/add-employee.png"
-              alt="Add Employee"
-              class="sl-screen__img"
-            />
-          </div>
-        </section>
-
-        <!-- 6. MOBILE -->
+        <!-- 4. MOBILE + QR -->
         <section class="sl-mobile">
           <div class="sl-mobile__left">
-            <div class="sl-eyebrow sl-eyebrow--light">Mobil Tətbiq</div>
+            <div class="sl-eyebrow sl-eyebrow--light">Mobil Tətbiq & QR Sistem</div>
             <h2 class="sl-title sl-title--light">
               İşçilər üçün sadə,<br />sürətli check-in
             </h2>
@@ -545,30 +517,37 @@
               </div>
               <div class="sl-mobile__feat">
                 <div class="sl-mobile__fnum">2</div>
-                <div><b>QR Skan</b> — Şirkətin QR kodunu oxut</div>
+                <div><b>QR Skan</b> — Şirkətin unikal QR kodunu oxut</div>
               </div>
               <div class="sl-mobile__feat">
                 <div class="sl-mobile__fnum">3</div>
-                <div><b>Üz Doğrulama</b> — Selfie ilə kimlik</div>
+                <div><b>GPS Doğrulama</b> — Yalnız ofis ərazisində check-in</div>
               </div>
               <div class="sl-mobile__feat">
                 <div class="sl-mobile__fnum">4</div>
-                <div><b>Tamamlandı</b> — Sistem qeyd edir</div>
+                <div><b>Üz Doğrulama</b> — Selfie ilə kimlik təsdiqi</div>
               </div>
+              <div class="sl-mobile__feat">
+                <div class="sl-mobile__fnum">5</div>
+                <div><b>Tamamlandı</b> — Sistem avtomatik qeyd edir</div>
+              </div>
+            </div>
+            <div class="sl-mobile__radius-preview">
+              <div class="sl-mobile__radius-bar">
+                <span class="md r"></span><span class="md y"></span><span class="md g"></span>
+                <span class="mu">Set Local Area Radius</span>
+              </div>
+              <img src="images/radius-map.png" alt="Radius Map" class="sl-mobile__radius-img"/>
             </div>
           </div>
           <div class="sl-mobile__right">
-            <div class="sl-mobile__stack">
-              <img
-                src="images/mobile-1.png"
-                alt="Mobile screens 1"
-                class="sl-mobile__stack-img"
-              />
-              <img
-                src="images/mobile-2.png"
-                alt="Mobile screens 2"
-                class="sl-mobile__stack-img"
-              />
+            <div class="sl-mobile__grid6">
+              <img src="images/1.PNG" alt="Step 1" class="sl-mobile__grid6-img"/>
+              <img src="images/2.PNG" alt="Step 2" class="sl-mobile__grid6-img"/>
+              <img src="images/3.PNG" alt="Step 3" class="sl-mobile__grid6-img"/>
+              <img src="images/4.PNG" alt="Step 4" class="sl-mobile__grid6-img"/>
+              <img src="images/5.PNG" alt="Step 5" class="sl-mobile__grid6-img"/>
+              <img src="images/6.PNG" alt="Step 6" class="sl-mobile__grid6-img"/>
             </div>
           </div>
         </section>
@@ -609,12 +588,8 @@
             </div>
             <div class="sl-screen__pills">
               <span class="sl-screen__pill sl-screen__pill--green">İşdə ✓</span>
-              <span class="sl-screen__pill sl-screen__pill--yellow"
-                >Gecikib ⏰</span
-              >
-              <span class="sl-screen__pill sl-screen__pill--red"
-                >İşdə deyil ✗</span
-              >
+              <span class="sl-screen__pill sl-screen__pill--yellow">Gecikib ⏰</span>
+              <span class="sl-screen__pill sl-screen__pill--red">İşdə deyil ✗</span>
             </div>
           </div>
           <div class="sl-screen__frame">
@@ -628,61 +603,6 @@
               alt="Attendance"
               class="sl-screen__img"
             />
-          </div>
-        </section>
-
-        <!-- 7. QR + RADIUS -->
-        <section class="sl-topbottom sl-topbottom--blue">
-          <div class="sl-topbottom__top">
-            <div class="sl-topbottom__info">
-              <div class="sl-eyebrow">Şirkət İdarəetməsi</div>
-              <h2 class="sl-title">QR Kod + Radius Sistemi</h2>
-            </div>
-            <div class="sl-topbottom__feats">
-              <div class="sl-feat">
-                <div class="sl-feat__icon" style="background: #e0f2fe">🔲</div>
-                <div>
-                  <div class="sl-feat__t">QR Kod Generasiyası</div>
-                  <div class="sl-feat__d">
-                    Hər şirkətin unikal QR kodu. İstənilən vaxt yenilənə bilər.
-                  </div>
-                </div>
-              </div>
-              <div class="sl-feat">
-                <div class="sl-feat__icon" style="background: #dcfce7">📍</div>
-                <div>
-                  <div class="sl-feat__t">Radius Zonası</div>
-                  <div class="sl-feat__d">
-                    Xəritədə ofis ərazisi müəyyən edilir. Check-in yalnız bu
-                    zonada mümkündür.
-                  </div>
-                </div>
-              </div>
-              <div class="sl-feat">
-                <div class="sl-feat__icon" style="background: #fef9c3">🗺️</div>
-                <div>
-                  <div class="sl-feat__t">Çoxlu Pin</div>
-                  <div class="sl-feat__d">
-                    Bir şirkətin bir neçə ofisi ola bilər. Hər pin üçün ayrı
-                    radius.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="sl-topbottom__bottom">
-            <div class="sl-screen__frame">
-              <div class="sl-screen__bar">
-                <span class="md r"></span><span class="md y"></span
-                ><span class="md g"></span
-                ><span class="mu">Set Local Area Radius</span>
-              </div>
-              <img
-                src="images/radius-map.png"
-                alt="Radius"
-                class="sl-topbottom__img"
-              />
-            </div>
           </div>
         </section>
 
@@ -739,7 +659,7 @@
           </div>
         </section> -->
 
-        <!-- 12. CTA -->
+        <!-- 10. CTA -->
         <section class="sl-cta">
           <div class="sl-cta__circles">
             <div class="sl-cta__c sl-cta__c--1"></div>
@@ -751,7 +671,7 @@
             <div class="sl-cta__grid">
               <div class="sl-cta__card">
                 <div class="sl-cta__card-icon">🚀</div>
-                <div class="sl-cta__card-title">Radius HR</div>
+                <div class="sl-cta__card-title">Radius</div>
                 <ul class="sl-cta__list">
                   <li>Limitsiz işçi</li>
                   <li>QR + GPS check-in</li>
@@ -805,8 +725,8 @@
             <div class="sl-end__c sl-end__c--2"></div>
           </div>
           <div class="sl-end__inner">
-            <div class="sl-end__logo">R</div>
-            <h2 class="sl-end__title">Radius HR</h2>
+            <img src="images/logo.svg" alt="Radius Logo" class="sl-end__logo-img"/>
+            <!-- <h2 class="sl-end__title">Radius</h2> -->
             <p class="sl-end__sub">
               İşçilərinizin davamiyyətini idarə etməyin ən asan yolu
             </p>
@@ -819,6 +739,7 @@
         </section>
       </div>
     </div>
+    <img src="images/logo.svg" alt="Radius Logo" class="global-logo"/>
     <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
     <script src="main.js"></script>
   </body>
