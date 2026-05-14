@@ -1,0 +1,157 @@
+— GİRİŞ: Radius HR ilə Tam Nəzarət
+
+Danışıq Mətni:
+“Bu gun Radius-un sizin biznesinizə ne qazandiracagi barede danisacam. əslində nə gətirdiyini bir neçə kəlmə ilə izah etmək istəyirəm.
+
+Radius HR — şirkətlərin işçi idarəetməsini tam avtomatlaşdıran professional bir sistemdir.iscilerinizin davamiyyeti ve is saati ile bagli hesablama və izləmə prosesini sistem 100% avtomatik şəkildə həyata keçirir. Siz və HR komandanız bu rutin işlər üçün artıq vaxt sərf etmirsiniz.
+
+Bu, şirkətiniz üçün dörd əsas strateji dəyər deməkdir:
+* Mütləq Vaxt Qənaəti: HR menecerləriniz artıq kağızlarla, Excel faylları ilə və ya zənglərlə vaxt itirmir. Onlar daha strateji və qazanc gətirən işlərə fokuslanır.
+* Maliyyə Dəqiqliyi: İnsan faktorundan yaranan hesablama səhvləri sıfıra enir, sizin büdcəniz və hər bir iş saatınız qorunur.
+* Real Vaxt Şəffaflığı: İstər HR, istərsə də rəhbər olaraq siz, istənilən an və istənilən yerdən real vəziyyəti paneldə görürsünüz. Sistem 24/7 əlçatandır.
+* Obyektiv Ədalət: Hər bir işçinin performansı və intizamı subyektiv rəylərlə deyil, dəqiq rəqəmsal sübutlarla ortadadır.
+Bütün bu imkanlar — QR kod, GPS doğrulaması və mobil check-in kimi müasir texnologiyalarla tək bir platformada birləşir. İndi isə, icazənizlə, bu prosesin pərdəarxasına — yəni sistemin necə işlədiyinə birlikdə baxaq."
+
+
+
+SLAYD 1 — TƏQDİMAT (Radius HR: Zamanın və Effektivliyin İdarəedilməsi)
+
+Satış Menecerinin yanaşması: . “Radius-un sizin biznesiniz üçün əslində hansı missiyanı daşıdığını qısaca ifadə edim."
+
+Danışıq Mətni:
+"Radius sadəcə bir proqram deyil. Bu, sizin HR komandanızın hər gün rutin və texniki işlərə itirdiyi qiymətli saatları onlara geri qazandıran rəqəmsal bir idarəetmə həllidir.
+
+Bizim sistemimiz insan faktorundan qaynaqlanan səhvləri sıfıra endirmək və şirkətinizin işçi idarəetməsini tamamilə avtomatlaşdırmaq üçün yaradılıb.
+
+Radius ilə:
+* Davamiyyət izləmə
+* Hesabatlılıq
+* Performans analitikası — bunların hamısı vahid platformada, real vaxt rejimində və mütləq dəqiqliklə baş verir. Bizim məqsədimiz texnologiyanı sizin xidmətinizə verməkdir ki, siz rəqəmləri hesablamaqla deyil, biznesi böyütməklə məşğul olasınız.
+
+
+SUAL: "Sizin şirkətdə hazırda davamiyyət və hesabatlılıq hansı metodla idarə olunur? 
+Kağız üzərində, turniket sistemi ilə, yoxsa Excel cədvəlləri vasitəsilə?"
+
+
+
+SLAYD 2 — PROBLEM (Mövcud Vəziyyət)
+
+Satış Menecerinin keçidi: "Əslində çox vaxt mənzərə eynidir. Gəlin, gündəlik iş prosesinə kənardan baxaq:"
+
+Danışıq Mətni:
+"Hər səhər HR meneceri işə gəlir. Kimin gəldiyini, kimin gecikdiyini öyrənmək üçün ya qapıdakı siyahıya baxır, ya da kiməsə zəng edib soruşur.
+Əsas çətinlik isə ayın sonunda yaranır. O yığılan kağızlar və Excel faylları bir yerə toplanır, saatlarla əllə hesablanır. Bu proses həm yorucudur, həm də səhvə çox meyillidir.
+
+Biz şirkətlərdə bu 3 əsas problemi görürük:
+* Statik (Hərəkətsiz) Məlumat: Kağız üzərində olan davamiyyət sadəcə arxiv üçün yığılan məlumatlardır. Siz həmin məlumatı analiz edə bilmirsiniz, keçmiş aylarla müqayisə apara bilmirsiniz və ən əsası, qərar vermək üçün ondan istifadə edə bilmirsiniz. Bu məlumat var, amma sizə heç bir faydası yoxdur.
+* Mübahisələr və Səhvlər: Əllə hesablamalar zamanı yaranan kiçik bir səhv həm vaxt itkisinə, həm də işçilər arasında narazılığa (ədalətsizlik hissinə) səbəb olur.
+* Görünməzlik: Şirkətdə hazırda kimin işdə olub-olmadığını görmək üçün mütləq kiməsə sual verməli olursunuz. Məlumat sizin əlinizin altında deyil.
+
+SUAL: "Bu proseslərdən hansı sizin HR komandanızın enerjisini və vaxtını daha çox alır?"
+
+
+SLAYD 3 — HƏLL (Radius HR: İdarəetmədə Rəqəmsal Transformasiya)
+
+Satış Menecerinin keçidi: "Məhz bu boşluqları doldurmaq və sizin əməliyyat xərclərinizi azaltmaq üçün biz Radius platformasını dizayn etmişik. Gəlin sistemin sizə təqdim etdiyi texniki üstünlüklərə nəzər salaq:"
+
+Danışıq Mətni:
+“Platformanın təməlində üç əsas sütun dayanır:
+1. Avtomatlaşdırılmış Giriş-Çıxış Sistemi: Artıq heç bir HR müdaxiləsinə ehtiyac qalmır. İşçi sadəcə unikal QR kodu skan edir, biometrik uz təsdiqi edir və sistem onun statusunu (İşdə, Gecikmiş və ya İşdə deyil) anında, xətasız olaraq müəyyən edir. Bu, prosesdəki subyektivliyi tamamilə aradan qaldırır.
+2. Anlıq Strateji Hesabatlılıq: Hesabat hazırlamaq üçün günlərlə vaxt sərf etmək dövrü artıq geridə qaldı. Cəmi bir kliklə — cəmi 5 saniyə ərzində Excel və ya PDF formatında tam hesabatınız hazırdır. İstər departament üzrə, istər şöbə üzrə istərsə də fərdi işçi üzrə bütün tarixçə hər an əlinizin altındadır.
+3. Proaktiv Monitorinq Sistemi: Sistem sadəcə məlumatları yığmır, həm də onları sizin üçün təhlil edir. Ardıcıl olaraq işə gəlməyən və ya gecikən işçilər barədə sistem avtomatik olaraq məsul şəxsi xəbərdar edir. Bu, sizə problemləri böyümədən, vaxtında və peşəkar şəkildə həll etmək imkanı verir.
+Nəticədə siz nə qazanırsınız?
+* 95% vaxt qənaəti;
+* Kağız sənədləşməsinin və arxivləşdirmənin tamamilə sıfırlanması;
+* Real vaxt rejimində 24/7 əlçatanlıq və 100% rəqəmsal dəqiqlik.
+
+SUAL: "Düşünün, HR komandanız hər ay hesabatlara itirdiyi bu günləri şirkətinizin kadr potensialını inkişaf etdirmək üçün hansı daha strateji layihələrə sərf edə bilərdi?"
+
+
+SLAYD 4 — SMART MOBİL TƏTBİQ VƏ QR SİSTEMİ (Mütləq Nəzarət və Sadəlik)
+
+Satış Menecerinin Girişi: "İndi isə gəlin sistemin 'beyni' sayılan və platformamıza adını verən ən unikal funksiyadan — Radius və Mobil Tətbiqin vahid 
+gücündən danışaq. Bir çox rəhbəri narahat edən 'İşçi ofisdə olmadan check-in edə bilərmi?' sualına biz texnoloji bir son qoyuruq."
+
+Danışıq Mətni: "İşçilər üçün bu proses hər hansı bir sosial şəbəkə tətbiqi qədər asandır, lakin arxa fonda mütləq bir təhlükəsizlik dayanır. Sistemimiz ikiqat doğrulama üzərində qurulub:
+* Dinamik Radius və GPS Doğrulaması: Xəritə üzərində ofisiniz üçün virtual bir sərhəd çəkirsiniz.
+* GPS Yoxlaması: İşçi check-in etmək istədikdə, sistem saniyələr içində onun GPS koordinatlarını yoxlayır.
+* Məkan Məhdudiyyəti: Əgər işçi təyin etdiyiniz radiusdan bir metr belə kənarındadırsa, sistem ona icazə vermir.
+* QR Kod və Biometrik Təsdiq (Selfie): Yalnız GPS kifayət deyil; işçi ofisdəki unikal QR kodu skan etməli və ardınca biometrik kimlik təsdiqi üçün selfie çəkməlidir.
+* Təhlükəsizlik Zəmanəti: Bu, sistemin ən güclü tərəfidir — heç kim başqasının əvəzinə işə giriş edə bilməz.
+İşçi üçün cəmi 30 saniyə çəkən 4 sadə addım:
+* Giriş: Telefon nömrəsi və şifrə ilə təhlükəsiz giriş.
+* QR Skan: Ofisdəki unikal kodun skan edilməsi.
+* Üz Doğrulaması: Biometrik (selfie) kimlik təsdiqi.
+* Tamamlandı: Məlumat anında rəhbərin panelinə düşür.
+
+Nəticə: Heç bir bahalı turniketə, turniket kartına və ya biometrik cihaza ehtiyac yoxdur. İşçinin öz smartfonu sizin üçün 100% zəmanətli və ən dəqiq nəzarət cihazına çevrilir."
+
+STRATEJİ SUAL: "Sizcə, GPS doğrulaması ilə biometrik təsdiqin bu cür kombinasiyası, şirkətinizdəki 'yalançı davamiyyət' riskini və sizin idarəetmə yükünüzü nə dərəcədə azaldardı?"
+
+
+
+📅 SLAYD 5 — DAVAMIYYƏT (İşçilərin Giriş-Çıxış Qeydləri)
+
+Satış Menecerinin Girişi: "İndi isə gəlin hər bir rəhbərin və HR menecerin iş gününü asanlaşdıran hissəyə — Gündəlik Davamiyyət jurnalına baxaq. Bu, sizin köhnə üsulla aparılan, kağız üzərindəki və ya Excel-dəki yorucu jurnallarınızın müasir və rəqəmsal əvəzləyicisidir."
+
+Danışıq Mətni:
+"Burada hər şey göz qabağındadır. Şirkətinizin gündəlik davamiyyət mənzərəsi real vaxt rejimində formalaşır:
+
+* Rənglərin Dili: Sistem vizual olaraq işinizi asanlaşdırır. İşdə olanlar yaşıl, gecikənlər sarı, işdə olmayanlar isə qırmızı rənglə işarələnir. Bir baxışda kimin ofisdə olduğunu, kimin yolda olduğunu dərhal anlayırsınız.
+* Dəqiq Zaman Qeydləri: Hər bir işçinin 'Check-in' və 'Check-out' vaxtları saniyəsinə qədər burada qeyd olunur. Məsələn, Əli Əliyevin tam vaxtında iş başında olduğunu, digər bir işçinin isə nə qədər gecikdiyini anında görürsünüz.
+* Saniyələr İçində Arxiv: İstənilən tarix aralığını seçərək keçmişə qayıda bilərsiniz. Bir işçinin bütün ay ərzindəki davranışını, gecikmə tarixçəsini və ya davamiyyət tarixçəsini analiz etmək cəmi 10 saniyə vaxtınızı alır.
+* Filtrləmə Gücü: Şöbələrç departamentlər və ya adlar üzrə sürətli axtarış funksiyası ilə minlərlə məlumatın içində zaman itirmədən sürərli sekəldə axtarış edə bilirsiniz
+
+Dəyər Vurğusu (Sual): Əvvəllər bir işçinin aylıq davamiyyətini hesablamaq, gecikmələrini toplamaq və bunları hesabat halına gətirmək üçün HR komandanıza neçə saat lazım olurdu?"
+
+Sizin Reaksiyanız: "Radius ilə bu 'saatlar' sadəcə bir klikə çevrilir. Siz vaxtınızı rəqəmləri toplamağa deyil, o rəqəmlər əsasında düzgün idarəetmə qərarları verməyə sərf edirsiniz."
+
+
+
+
+SLAYD 6 — PERFORMANS: Şirkətin Rəqəmsal İdarəetmə Mərkəzi
+
+Satış Menecerinin keçidi: "İndi isə platformanın ən strateji hissəsinə keçirik. Bu panel şirkətinizin gündəlik fəaliyyətini real vaxt rejimində izləyən rəqəmsal idarəetmə mərkəzidir. Burada hər bir detal rəhbər üçün strateji bir qərar verməsinə böyük rol oynayır.”
+
+Danışıq Mətni: "Gəlin bu mənzərəni ekranda görünən şəkil üzərindən addım-addım analiz edək:
+
+1. Çevik Filtrləmə və Zamanın İdarəolunması: Panelin yuxarı hissəsindəki filtrlər sizə mütləq idarəetmə azadlığı verir. Siz davamiyyəti sadəcə bu gün üçün deyil, aylıq, rüblük və ya illik olaraq, həmçinin spesifik bir tarix aralığında saniyələr içində süzgəcdən keçirə bilərsiniz. Lazım gəldikdə konkret bir şöbəni, vəzifəni və ya tək bir işçini seçərək vəziyyəti anında təhlil etmək mümkündür.
+
+2. Əsas Performans Metrikləri: Yuxarıdakı rəngli kartlar sizə şirkətin cari intizam mənzərəsini dərhal göstərir. Məsələn, buradakı 78% ortalama davamiyyət və 309 saatlıq performans cədvəli sizə büdcə itkilərini və iş effektivliyini anında ölçmək imkanı verir.
+
+3. Obyektiv Qiymətləndirmə: Sistem subyektiv rəyləri dəqiq rəqəmlərlə əvəz edir:
+* 🏆 Ən İntizamlı: Məsələn, Sani Axundov 81% davamiyyət ilə avtomatik olaraq nümunəvi işçi kimi seçilir.
+* ⚠️ Diqqət Tələb Edən: Gecikmələri çox olan və ya davamiyyəti zəif olan kadrlar dərhal qırmızı zona ilə fərqləndirilir ki, bu da problemlər böyümədən müdaxilə etmək şansıdır.
+
+4. Şöbələrarası Performans Analizi: Burada şöbələrarası performans göstəriciləri əks olunur ki, bu da sizə hansı departamentin daha effektiv idarə olunduğunu görməyə imkan verir. Satınalma və Mühasibatlıq kimi şöbələrin davamiyyət səviyyəsini müqayisə edərək, resursların düzgün bölünüb-bolünmədiyini analiz edə bilərsiniz.
+
+5. Fərdi Göstəricilər və Şəffaflıq: Bu bölmədə hər bir əməkdaşın fərdi göstəriciləri ən xırda detalına qədər sənədləşmiş şəkildə təqdim olunur.
+* İşçinin neçə gün işdə olması və neçə dəfə gecikməsi anında görünür.
+* Plan Saatı vs Faktiki Saat: İşçinin öhdəliyi olan vaxtla real işlədiyi vaxt müqayisə edilir.
+* Radius ilə hər bir iş saatı və dəqiqəsi şəffaf şəkildə qeydə alınaraq rəsmi hesabat bazasına daxil edilir.
+
+Nəticə: Bu panel sadəcə məlumat vermir, sizə tam nəzarət gücü verir. Bütün bu datanı bir kliklə Excel formatında çıxarıb rəsmi arxivləşdirmə üçün istifadə edə bilərsiniz."
+
+STRATEJİ SUAL: "Sizcə, hər səhər cəmi 1 dəqiqə bu paneli nəzərdən keçirmək, sizin gün ərzindəki idarəetmə qərarlarınızda nə qədər əminlik yaradardı?"
+
+
+
+SLAYD 7 — ŞİRKƏTİNİZ ÜÇÜN HAZIRDIR (Yekun)
+Satış Menecerinin Girişi: "Gördüyünüz kimi, Radius sadəcə bir proqram deyil, sizin biznesiniz üçün tam hazır bir idarə etmə sistemidir. Biz bütün texniki detalları həll etmişik, sizə sadəcə düyməyə basmaq qalır."
+
+Danışıq Mətni:
+
+"Radius ilə siz nə əldə edirsiniz? Cəmi bir paketdə bütün ehtiyaclarınız qarşılanır:
+* Limitsiz İmkanlar: Limitsiz işçi sayı, QR + GPS doğrulaması və bütün hesabatların Excel formatında çıxarılması.
+* Tam Dəstək: Sistem 3 dildə fəaliyyət göstərir və hər hansı sualınız yarandıqda texniki dəstək komandamız yanınızdadır.
+* Sürətli Quraşdırma: Cəmi 1 iş günü ərzində sisteminiz tam hazır vəziyyətə gətirilir.
+* Mütləq Təhlükəsizlik: Bütün məlumatlarınız ən yüksək standartlarla şifrələnərək saxlanılır.
+* Daimi Yenilənmə: Siz heç bir əlavə ödəniş etmədən, tərəfimizdən əlavə olunan yeni funksiyaları avtomatik əldə edirsiniz.
+
+Nəticə: İdarəetmədə Yeni Standart
+Radius HR ilə siz sadəcə proqram təminatı deyil, tam nəzarət və vaxt qazanırsınız:
+* Sürət: 24 saat ərzində tam quraşdırılma və işə başlama.
+* Qənaət: Əlavə cihaz xərci yoxdur — smartfonunuz bəs edir.
+* Güvən: Məlumatların şifrələnməsi və kəsilməz texniki dəstək.
+
+

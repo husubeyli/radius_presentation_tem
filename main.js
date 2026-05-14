@@ -26,11 +26,12 @@ Reveal.on('slidechanged', function(event) {
 
 // Typewriter effect
 const phrases = [
-  'real vaxtda izləyin',
-  'avtomatik hesablayın',
-  'dəqiq idarə edin',
-  'asanlıqla analiz edin',
-  'bir klikdə hesabat alın',
+  'avtomatik izləyin',
+  'dəqiq hesablayın',
+  'şəffaf idarə edin',
+  'GPS ilə doğrulayın',
+  'bir klikdə analiz edin',
+  // 'rəqəmsal nəzarətə alın',
 ];
 let pi = 0, ci = 0, deleting = false;
 const el = document.getElementById('twText');
