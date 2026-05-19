@@ -13,7 +13,16 @@ Reveal.initialize({
   autoAnimateDuration: 0.6,
 });
 
-// Hide global logo on last slide
+// Logo switching based on slide background
+const darkSlides = ['sl-cover', 'sl-problem', 'sl-solution', 'sl-mobile', 'sl-cta', 'sl-end'];
+
+function updateLogo(slide) {
+  const logo = document.querySelector('.global-logo');
+  if (!logo) return;
+  const isDark = darkSlides.some(cls => slide.classList.contains(cls));
+  logo.src = isDark ? 'images/logo_2.png' : 'images/logo.svg';
+}
+
 Reveal.on('slidechanged', function(event) {
   const logo = document.querySelector('.global-logo');
   if (!logo) return;
@@ -21,7 +30,12 @@ Reveal.on('slidechanged', function(event) {
     logo.style.display = 'none';
   } else {
     logo.style.display = 'block';
+    updateLogo(event.currentSlide);
   }
+});
+
+Reveal.on('ready', function(event) {
+  updateLogo(event.currentSlide);
 });
 
 // Typewriter effect
