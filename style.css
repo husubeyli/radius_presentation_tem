@@ -227,12 +227,13 @@
   border-radius: 12px;
   padding: 12px 18px;
   margin-bottom: 18px;
-  width: fit-content;
+  width: 100%;
 }
 
 .sl-cover__kpi {
   text-align: center;
   padding: 0 14px;
+  flex: 1;
 }
 
 .sl-cover__kpi b {
@@ -258,18 +259,40 @@
 
 .sl-cover__tags {
   display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.sl-cover__tags-row {
+  display: flex;
+  gap: 6px;
+  width: 100%;
+}
+
+.sl-cover__tags-row--center {
+  justify-content: center;
 }
 
 .sl-cover__tags span {
-  background: rgba(255, 255, 255, .12);
-  border: 1.5px solid rgba(255, 255, 255, .2);
-  color: #fff;
+  color: rgba(255,255,255,.9);
   font-size: .78em;
   font-weight: 600;
-  padding: 6px 14px;
-  border-radius: 20px;
+  padding: 6px 10px;
+  border-bottom: 1px solid #4dd9f5;
+  background: rgba(255,255,255,.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  border-radius: 6px 6px 0 0;
+  transition: background .2s, border-color .2s;
+  flex: 1;
+  text-align: center;
+}
+
+.sl-cover__tags span:hover {
+  background: rgba(77,217,245,.12);
 }
 
 .sl-cover__right {
@@ -606,7 +629,6 @@
 .sl-sol-card--accent {
   background: rgba(255, 255, 255, .18);
   border-color: rgba(255, 255, 255, .35);
-  transform: translateY(-4px);
 }
 
 .sl-sol-card__icon {
@@ -880,6 +902,7 @@
 
 .sl-mobile__feat {
   display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 12px;
   background: rgba(255, 255, 255, .08);
@@ -888,6 +911,7 @@
   padding: 10px 13px;
   font-size: .76em;
   color: rgba(255, 255, 255, .88);
+  text-align: left;
 }
 
 .sl-mobile__feat b {
@@ -1835,7 +1859,90 @@
   display: block;
   border-radius: 10px;
   object-fit: contain;
-  max-height: 260px;
+  max-height: 320px;
   box-shadow: 0 4px 16px rgba(0,0,0,.3);
 }
 
+
+/* Cover title subtitle — Davamiyyəti */
+.sl-cover__title-sub {
+  font-size: 0.95em;
+  font-weight: 800;
+  color: #4dd9f5;
+  display: block;
+  line-height: 1.15;
+  margin-top: 0;
+  margin-bottom: 0.2em;
+}
+
+/* Cover brand logo */
+.sl-cover__brand-logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.sl-cover__brand-img {
+  height: 80px;
+  width: auto;
+  display: inline-block;
+}
+
+/* Eyebrow top-left absolute */
+.sl-eyebrow--topleft {
+  position: absolute;
+  top: 20px;
+  left: 48px;
+  z-index: 10;
+}
+
+/* Minimum font size — 12px for small text elements */
+.sl-cover__kpi span,
+.sl-sol-metric__lbl,
+.mock-nav,
+.mock-nm,
+.mock-badge,
+.mock-chart-title,
+.mock-bw span,
+.mock-stat s,
+.mock-stat b,
+.sl-screen__pill,
+.sl-feat__d,
+.sl-mobile__feat,
+.sl-cta__list li,
+.sl-cta__benefit p,
+.sl-end__sub,
+.sl-end__contact,
+.sl-cover__trust-item span,
+.sl-cover__tags span,
+.sl-cover__sub {
+  font-size: max(0.7em, 12px) !important;
+}
+
+/* Solution cards — symmetric */
+.sl-sol-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.sl-sol-card__icon {
+  text-align: center;
+}
+.sl-sol-card__title {
+  text-align: center;
+}
+.sl-sol-card__desc {
+  text-align: center;
+}
+.sl-sol-card__stat {
+  text-align: center;
+}
+
+/* Solution cards — stat always at bottom */
+.sl-sol-card__desc {
+  flex: 1;
+}
+
+/* Solution card min font size 12px */
+.sl-sol-card__title { font-size: max(0.86em, 12px) !important; }
+.sl-sol-card__desc  { font-size: max(0.7em,  12px) !important; }
+.sl-sol-card__stat  { font-size: max(0.66em, 12px) !important; }

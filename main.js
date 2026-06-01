@@ -19,19 +19,18 @@ const darkSlides = ['sl-cover', 'sl-problem', 'sl-solution', 'sl-mobile', 'sl-ct
 function updateLogo(slide) {
   const logo = document.querySelector('.global-logo');
   if (!logo) return;
+  // Hide on cover and end slides
+  if (slide.classList.contains('sl-cover') || slide.classList.contains('sl-end')) {
+    logo.style.display = 'none';
+    return;
+  }
+  logo.style.display = 'block';
   const isDark = darkSlides.some(cls => slide.classList.contains(cls));
   logo.src = isDark ? 'images/logo_2.png' : 'images/logo.svg';
 }
 
 Reveal.on('slidechanged', function(event) {
-  const logo = document.querySelector('.global-logo');
-  if (!logo) return;
-  if (event.currentSlide.classList.contains('sl-end')) {
-    logo.style.display = 'none';
-  } else {
-    logo.style.display = 'block';
-    updateLogo(event.currentSlide);
-  }
+  updateLogo(event.currentSlide);
 });
 
 Reveal.on('ready', function(event) {
